@@ -1,0 +1,66 @@
+// Set the base font size
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  background-color: $background;
+}
+
+
+article.page {
+  @include letter-size();
+  display: flex;
+  flex-direction: column;
+  padding: $page-spacing;
+  padding-top: 0;
+  background-color: $white;
+  margin: 2rem auto;
+
+  position: relative;
+
+  // shadow effect for web
+  &::before,
+  &::after {
+    z-index: -1;
+    position: absolute;
+    content: '';
+    bottom: 1rem;
+    width: 50%;
+    top: 90%;
+    background: $light;
+    box-shadow: 0 1rem 0.5rem $light;
+  }
+
+  &::before {
+    transform: rotate(-3deg);
+    left: 0.5rem;
+  }
+
+  &::after {
+    transform: rotate(3deg);
+    right: 0.5rem;
+  }
+
+  main {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+  }
+}
+
+@media print {
+  body {
+    @include letter-size();
+  }
+
+  article.page {
+    margin: 0;
+  }
+
+  @page {  // disable browser printing options (header, footer, margin)
+    size: auto;
+    margin: 0;
+  }
+}

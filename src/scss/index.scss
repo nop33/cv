@@ -1,0 +1,21 @@
+@import '~minireset.css';
+
+@import '_variables';
+@import '_colors';
+@import '_mixins';
+
+@import 'typography';
+@import 'base';
+@import 'layout';
+
+@import '../sections/header/style';
+@import '../sections/footer/style';
+
+@import '../components/job/style';
+@import '../components/tag/style';
+@import '../components/education/style';
+@import '../components/attribute/style';
+@import '../components/language/style';
+@import '../components/skill/style';
+@import '../components/personal_info/style';
+@import '../components/activity/style';

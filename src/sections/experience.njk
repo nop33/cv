@@ -1,0 +1,10 @@
+<section class="column__section">
+  <header>
+    <h2>Experience</h2>
+  </header>
+  <div class="column__section__content">
+    {% for job in job_list %}
+      {% include '../components/job/index.njk' %}
+    {% endfor %}
+  </div>
+</section>

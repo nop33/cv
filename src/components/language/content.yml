@@ -1,0 +1,11 @@
+- name: 'Greek'
+  level: 'native'
+
+- name: 'English'
+  level: 'proficient'
+
+- name: 'German'
+  level: 'intermediate'
+
+- name: 'French'
+  level: 'basic'

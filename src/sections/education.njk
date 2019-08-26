@@ -1,0 +1,10 @@
+<section class="column__section">
+  <header>
+    <h2>Education</h2>
+  </header>
+  <div class="column__section__content">
+    {% for edu in education_list %}
+      {% include '../components/education/index.njk' %}
+    {% endfor %}
+  </div>
+</section>

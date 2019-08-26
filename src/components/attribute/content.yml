@@ -1,0 +1,17 @@
+- name: 'Communication'
+  description: 'Connecting creative and logical thinking minds'
+
+- name: 'Delegation'
+  description: "Understanding people's abilities and delegating tasks accordingly"
+
+- name: 'Learning'
+  description: 'Eager and capable of learning new things fast'
+
+- name: 'Design'
+  description: 'Spotting visual imprefections | Building mockups'
+
+- name: 'Organization'
+  description: 'Always keeping track of the current status while looking at the big picture'
+
+- name: 'Ownership'
+  description: 'Owning the responsibilities of a project, making it my mission to see it through'

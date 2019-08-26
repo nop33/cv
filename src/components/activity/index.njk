@@ -1,0 +1,11 @@
+<div class="activity">
+  <h3>
+    <span>{{ activity.title }}</span>
+    {% if activity.link %}
+      <a href="{{ activity.link }}" target="_blank">
+        <i class="fas fa-link"></i>
+      </a>
+    {% endif %}
+  </h3>
+  <div class="activity__description">{{ activity.description }}</div>
+</div>

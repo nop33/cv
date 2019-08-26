@@ -1,0 +1,19 @@
+.activity {
+  @include subcolumn(
+    $number-of-columns: 2,
+    $margin: 1.5rem,
+    $padding: 9pt
+  );
+
+  &__description {
+    @extend %h4;
+  }
+
+  a {
+    color: $light;
+
+    i {
+      font-size: 0.8em;
+    }
+  }
+}

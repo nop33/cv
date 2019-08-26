@@ -1,0 +1,10 @@
+<section class="column__section column__section--with-subcolumns">
+  <header>
+    <h2>Attributes</h2>
+  </header>
+  <div class="column__section__content">
+    {% for attribute in attribute_list %}
+      {% include '../components/attribute/index.njk' %}
+    {% endfor %}
+  </div>
+</section>

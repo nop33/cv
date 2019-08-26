@@ -1,0 +1,89 @@
+- company: 'Petro-Logistics SA'
+  title: 'Frontend Engineer & Project Lead'
+  start_date: 'June 2019'
+  end_date: 'now'
+  description: |-
+    As a short-term project, I took upon implementing the company's new website with a JAMstack architecture while supervising the work of frontend engineers, designers and content creators.
+  tags:
+    - HTML5
+    - SCSS
+    - ES6
+    - Webpack
+    - Bulma
+    - Hugo
+    - Netlify
+    - Netlify CMS
+    - Git
+    - GitLab
+    - Invision
+
+- company: 'Bity SA'
+  title: 'Frontend Engineer & Project Lead'
+  start_date: 'June 2018'
+  end_date: 'May 2019'
+  description: |-
+    Working closely with designers, content creators, frontend and backend engineers, I was assigned the organization, supervision and implementation of <a href="https://bity.com">Bity's website</a> alongside the development of an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open source web client</a> for Bity's cryptocurrency exchange API. In addition, I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
+  tags:
+    - HTML5
+    - SCSS
+    - ES6
+    - Webpack
+    - React
+    - Bulma
+    - Hugo
+    - Netlify CMS
+    - Git
+    - GitLab
+    - Sketch
+
+- company: 'Station AG'
+  title: 'Frontend Engineer'
+  start_date: 'October 2017'
+  end_date: 'May 2018'
+  description: |-
+    In my first (official) position as a frontend engineer I worked on developing modern website concepts in an Agile working team. At Station, I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> webapp and website, as well as of the <a href="https://buergenstock.ch">Bürgenstock website</a>. During my time there I discovered some project management skills and slowly obtained scrum master responsibilities.
+  tags:
+    - HTML5
+    - SCSS
+    - ES6
+    - Vue
+    - Bulma
+    - Git
+    - Jira
+    - Bitbucket
+    - Sketch
+    - Invision
+
+- company: 'Indico - CERN'
+  title: 'Full-Stack Software Engineer'
+  start_date: 'August 2014'
+  end_date: 'July 2017'
+  description: |-
+    After graduating from university I joined the Indico team at CERN where we rewrote Indico's complete codebase. While dealing with both backend and frontend tasks as well as DevOps, user support and documentation, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. During my employment there I also implemented the project's website and built a styleguide for the whole application.
+  tags:
+    - HTML5
+    - SCSS
+    - JS
+    - jQuery
+    - Bootstrap
+    - Jekyll
+    - Python
+    - Flask
+    - PostgreSQL
+    - Git
+    - GitHub
+    - Asana
+
+- company: 'CERN'
+  title: 'Full-Stack Software Engineer - Internship'
+  start_date: 'August 2013'
+  end_date: 'July 2014'
+  description:
+  tags:
+
+- company: 'Aidgency Software'
+  title: 'Full-Stack Software Engineer - Internship'
+  start_date: 'July 2012'
+  end_date: 'April 2013'
+  description:
+  tags:

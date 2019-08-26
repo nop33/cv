@@ -1,0 +1,7 @@
+.attribute {
+  @include subcolumn(
+    $number-of-columns: 2,
+    $margin: 1.5rem,
+    $padding: 9pt
+  );
+}

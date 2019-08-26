@@ -1,0 +1,19 @@
+- icon: ''
+  content: 'Zurich, CH'
+  link: ''
+
+- icon: ''
+  content: '+41 76 736 25 02'
+  link: ''
+
+- icon: ''
+  content: 'ilias@protonmail.ch'
+  link: 'mailto:ilias@protonmail.ch'
+
+- icon: 'fab fa-linkedin'
+  content: 'in/iliastrichopoulos'
+  link: 'http://linkedin.com/'
+
+- icon: 'fab fa-github'
+  content: 'nop33'
+  link: 'http://github.com/nop33'

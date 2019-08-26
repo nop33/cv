@@ -1,0 +1,12 @@
+<div class="personal-info">
+  {% if info.icon %}
+    <i class="{{ info.icon }}"></i>
+  {% endif %}
+  {% if info.link %}
+    <a href="{{ info.link }}">
+      {{ info.content }}
+    </a>
+  {% else %}
+    <span>{{ info.content }}</span>
+  {% endif %}
+</div>

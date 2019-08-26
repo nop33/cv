@@ -1,0 +1,16 @@
+<section class="job">
+  <header>
+    <h3>{{ job.title }} | {{ job.company }}</h3>
+    <div class="job__date">{{ job.start_date }} - {{ job.end_date }}</div>
+  </header>
+  {% if job.description %}
+    <p class="job__description">{{ job.description | safe }}</p>
+  {% endif %}
+  {% if job.tags %}
+    <ul class="job__tag-list">
+      {% for tag in job.tags %}
+        {% include '../tag/index.njk' %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>

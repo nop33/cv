@@ -1,0 +1,23 @@
+- title: 'UI talk/workshop'
+  description: 'Flexbox, the yoga of CSS'
+  link: 'https://cds.cern.ch/record/2253051?ln=en'
+
+- title: 'UX talk'
+  description: 'The messed up story of U and my X'
+  link: 'https://cds.cern.ch/record/2252788?ln=en'
+
+- title: 'Volunteer'
+  description: 'Crowd control at CERN Open Days'
+  link: ''
+
+- title: 'Collaboration talk'
+  description: 'Collaborative Coding with Git, Github and Travis-Ci'
+  link: 'http://web.archive.org/web/20160524082650/http://acm.web.auth.gr/event/scm-and-collaborative-coding-git-github-travis.html'
+
+- title: 'Webmaster'
+  description: 'ESN Greece webmaster, creator of tool ESN WebManager'
+  link: ''
+
+- title: 'ESN AUTH board member'
+  description: 'Integration of Erasmus students and event organizing'
+  link: 'https://auth.esngreece.gr/'

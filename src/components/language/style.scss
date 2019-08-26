@@ -1,0 +1,11 @@
+.language {
+  @include subcolumn(
+    $number-of-columns: 4,
+    $margin: 1.5rem,
+    $padding: 9pt
+  );
+
+  &__level {
+    @extend %h4;
+  }
+}

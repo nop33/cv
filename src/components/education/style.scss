@@ -1,0 +1,6 @@
+.education {
+  &__institute,
+  &__date {
+    @extend %h4;
+  }
+}

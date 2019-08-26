@@ -1,0 +1,10 @@
+<section class="column__section column__section--with-subcolumns  ">
+  <header>
+    <h2>Skills</h2>
+  </header>
+  <div class="column__section__content">
+    {% for skill in skill_list %}
+      {% include '../components/skill/index.njk' %}
+    {% endfor %}
+  </div>
+</section>
