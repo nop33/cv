@@ -59,7 +59,7 @@ function render(content) {
     (error, result) => {
       if (error) return console.log(error);
 
-      let path = 'dist/cv.html';
+      let path = 'dist/index.html';
       fs.writeFileSync(path, result);
 
       console.log(`✅ HTML generated at ${path}`);
