@@ -13,7 +13,7 @@
     padding-right: 0;
 
     .#{$prefix}__section__content {
-      padding-left: $page-spacing;
+      padding-left: 0.1rem;
     }
   }
 
@@ -21,7 +21,7 @@
     padding-left: 0;
 
     .#{$prefix}__section__content {
-      padding-right: $page-spacing;
+      padding-right: 0.1rem;
     }
 
     .#{$prefix}__section header {
