@@ -1,8 +1,8 @@
 .language {
   @include subcolumn(
-    $number-of-columns: 4,
-    $margin: 1.5rem,
-    $padding: 9pt
+    $number-of-columns: auto,
+    $margin: $subcolumn-row-spacing,
+    $padding: $page-spacing
   );
 
   &__level {

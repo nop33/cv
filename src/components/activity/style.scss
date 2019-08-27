@@ -1,8 +1,8 @@
 .activity {
   @include subcolumn(
     $number-of-columns: 2,
-    $margin: 1.5rem,
-    $padding: 9pt
+    $margin: $subcolumn-row-spacing,
+    $padding: $page-spacing
   );
 
   &__description {
