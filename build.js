@@ -50,7 +50,7 @@ function buildContent() {
         let contentFilePath = `src/components/${component}/content.yml`;
 
         if (fs.existsSync(contentFilePath)) {
-          let key = `${component}_list`;
+          let key = `${component}_component_content`;
           let value = yaml.safeLoad(fs.readFileSync(contentFilePath, 'utf8'));
 
           content[key] = value;
