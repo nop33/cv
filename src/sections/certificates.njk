@@ -1,0 +1,10 @@
+<section class="column__section">
+  <header>
+    <h2>Certificates</h2>
+  </header>
+  <div class="column__section__content">
+    {% for certificate in certificate_list %}
+      {% include '../components/certificate/index.njk' %}
+    {% endfor %}
+  </div>
+</section>

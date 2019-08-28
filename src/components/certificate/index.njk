@@ -1,0 +1,11 @@
+<section class="certificate">
+  <header>
+    <h3>{{ certificate.title }}</h3>
+    <div class="certificate__description">
+      {{ certificate.description }} - {{ certificate.year }}
+    </div>
+  </header>
+  {% if certificate.note %}
+    <p class="certificate__note">{{ certificate.note | safe }}</p>
+  {% endif %}
+</section>
