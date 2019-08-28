@@ -17,13 +17,12 @@ article.page {
   display: flex;
   flex-direction: column;
   padding: $page-spacing;
-  padding-top: 0;
   background-color: $white;
   margin: 2rem auto;
 
+  // shadow effect for web
   position: relative;
 
-  // shadow effect for web
   &::before,
   &::after {
     z-index: -1;
@@ -44,6 +43,10 @@ article.page {
   &::after {
     transform: rotate(3deg);
     right: 0.5rem;
+  }
+
+  &:not(.back) {
+    padding-top: 0;
   }
 
   main {

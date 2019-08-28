@@ -14,6 +14,17 @@ const sassConfig = {
   importer: packageImporter()
 };
 
+const pagesConfig = [
+  {
+    input: 'src/index.njk',
+    output: 'dist/index.html'
+  },
+  {
+    input: 'src/pages/back.njk',
+    output: 'dist/back/index.html'
+  }
+]
+
 sass.render(sassConfig, (error, result) => {
   if (error) return console.log(error);
 
@@ -53,16 +64,17 @@ function buildContent() {
 }
 
 function render(content) {
-  nunjucks.render(
-    'src/index.njk',
-    content,
-    (error, result) => {
-      if (error) return console.log(error);
+  pagesConfig.forEach(page => {
+    nunjucks.render(
+      page.input,
+      content,
+      (error, result) => {
+        if (error) return console.log(error);
 
-      let path = 'dist/index.html';
-      fs.writeFileSync(path, result);
+        fs.writeFileSync(page.output, result);
 
-      console.log(`✅ HTML generated at ${path}`);
-    }
-  )
+        console.log(`✅ HTML generated at ${page.output}`);
+      }
+    );
+  });
 }
