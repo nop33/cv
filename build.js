@@ -2,7 +2,6 @@
 'use strict'
 
 const fs = require('fs');
-const path = require('path');
 const nunjucks = require('nunjucks');
 const sass = require('node-sass');
 const packageImporter = require('node-sass-package-importer');
