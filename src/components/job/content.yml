@@ -1,9 +1,9 @@
 - company: 'Petro-Logistics SA'
-  title: 'Frontend Engineer & Project Lead'
+  title: 'Software Engineer'
   start_date: 'June 2019'
   end_date: 'now'
   description: |-
-    During summer, I took upon implementing the company's new website with a JAMstack architecture while supervising the work of frontend engineers, designers and content creators.
+    Led the creation of the <a href="https://www.petro-logistics.com">company's new website</a> with a Jamstack architecture while supervising the work of frontend engineers, designers and content creators. Currently working on improving the internal infrastructure using Ansible, Docker and GitLab CI/CD and setting up a Public Key Infrastructure.
   tags:
     - HTML5
     - SCSS
