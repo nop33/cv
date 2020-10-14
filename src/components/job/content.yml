@@ -15,14 +15,17 @@
     - Netlify CMS
     - Git
     - GitLab
+    - Jamstack
     - Invision
+    - Ansible
+    - Docker
 
 - company: 'Bity SA'
   title: 'Frontend Engineer & Project Lead'
   start_date: 'June 2018'
   end_date: 'May 2019'
   description: |-
-    Working closely with designers, content creators, frontend and backend engineers, I was assigned the organization, supervision and implementation of <a href="https://bity.com">Bity's website</a> alongside the development of an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open source web client</a> for Bity's cryptocurrency exchange API. In addition, I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
+    Working closely with designers, content creators, frontend and backend engineers, I was assigned the organization, supervision and implementation of <a href="https://bity.com">Bity's website</a> with a Jamstack architecture alongside the development of an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open source web client</a> for Bity's cryptocurrency exchange API. In addition, I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
   tags:
     - HTML5
     - SCSS
@@ -34,6 +37,7 @@
     - Netlify CMS
     - Git
     - GitLab
+    - Jamstack
     - Sketch
 
 - company: 'Station AG'
@@ -46,7 +50,7 @@
     - HTML5
     - SCSS
     - ES6
-    - Vue
+    - Vue.js
     - Bulma
     - Git
     - Jira
