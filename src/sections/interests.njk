@@ -3,6 +3,8 @@
     <h2>Interests</h2>
   </header>
   <div class="column__section__content">
-    {% include '../components/interests/index.njk' %}
+    {% for interest in interest_component_content %}
+      {% include '../components/interest/index.njk' %}
+    {% endfor %}
   </div>
 </section>
