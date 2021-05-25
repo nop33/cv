@@ -2,10 +2,10 @@
   level: 'native'
 
 - name: 'English'
-  level: 'proficient'
+  level: 'C2'
 
 - name: 'German'
-  level: 'intermediate'
+  level: 'B1'
 
 - name: 'French'
-  level: 'basic'
+  level: 'A1'
