@@ -26,7 +26,7 @@
   start_date: 'June 2018'
   end_date: 'May 2019'
   description: |-
-    Working closely with designers, content creators, frontend and backend engineers, I was assigned the organization, supervision, and implementation of <a href="https://bity.com">Bity's website</a> with a Jamstack architecture alongside the development of an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open-source web client</a> for Bity's cryptocurrency exchange API. In addition, I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
+    Working closely with designers, content creators, frontend and backend engineers, I organized, supervised, and implemented <a href="https://bity.com">Bity's website</a> with a Jamstack architecture as well as an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open-source web client</a> for Bity's cryptocurrency exchange API. In addition, I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
   tags:
     - HTML5
     - SCSS
@@ -46,7 +46,7 @@
   start_date: 'October 2017'
   end_date: 'May 2018'
   description: |-
-    In my first (official) position as a frontend engineer, I worked on developing modern website concepts in an Agile working team. At Station, I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> web app and website, as well as of the <a href="https://burgenstockresort.com/">Bürgenstock website</a>. During my time there I aquired project management skills and over time I obtained scrum master responsibilities.
+    Developed modern website concepts in an Agile working team. At Station, I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> web app and website, as well as of the <a href="https://burgenstockresort.com/">Bürgenstock website</a>. During my time there I aquired project management skills and over time I obtained Scrum Master responsibilities.
   tags:
     - HTML5
     - SCSS
@@ -64,7 +64,7 @@
   start_date: 'August 2014'
   end_date: 'July 2017'
   description: |-
-    After graduating from university I joined the Indico team at CERN where we rewrote Indico's complete codebase. While dealing with both backend and frontend tasks as well as DevOps, user support and documentation, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. During my employment there I also implemented the project's website and built a styleguide for the whole application.
+    After graduating from university, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of both backend and frontend tasks as well as DevOps, user support and documentation, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. During my employment there I also implemented the <a href="https://getindico.io/">project's website</a> and built a styleguide for the whole web app.
   tags:
     - HTML5
     - SCSS
