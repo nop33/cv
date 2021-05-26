@@ -1,6 +1,13 @@
-<section class="certificate">
+<div class="certificate">
   <header>
-    <h3>{{ certificate.title }}</h3>
+    <h3>
+      <span>{{ certificate.title }}</span>
+      {% if certificate.link %}
+        <a href="{{ certificate.link }}" target="_blank">
+          <i class="fas fa-link"></i>
+        </a>
+      {% endif %}
+    </h3>
     <div class="certificate__description">
       {{ certificate.description }} - {{ certificate.year }}
     </div>
@@ -8,4 +15,4 @@
   {% if certificate.note %}
     <p class="certificate__note">{{ certificate.note | safe }}</p>
   {% endif %}
-</section>
+</div>

@@ -3,15 +3,15 @@
   link: 'https://cds.cern.ch/record/2253051?ln=en'
   year: '2017'
 
-- title: 'Volunteer'
-  description: 'Crowd control at CERN Open Days'
-  link: ''
-  year: '2013'
-
 - title: 'UX talk'
   description: 'The messed up story of U and my X'
   link: 'https://cds.cern.ch/record/2252788?ln=en'
   year: '2017'
+
+- title: 'Volunteer'
+  description: 'Crowd control at CERN Open Days'
+  link: ''
+  year: '2013'
 
 - title: 'Webmaster'
   description: 'ESN Greece webmaster, creator of ESN WebManager web app'

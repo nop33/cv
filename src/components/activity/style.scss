@@ -1,10 +1,4 @@
 .activity {
-  @include subcolumn(
-    $number-of-columns: 2,
-    $margin: $subcolumn-row-spacing,
-    $padding: $page-spacing
-  );
-
   &__description {
     @extend %h4;
   }
