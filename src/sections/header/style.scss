@@ -3,13 +3,13 @@ header.page-header {
   align-items: stretch;
   justify-content: center;
   height: 9rem;
+  border-bottom: 1px solid $dark;
 
   > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid $dark;
   }
 
   h2 {

@@ -24,9 +24,10 @@
       padding-right: 0.1rem;
     }
 
-    .#{$prefix}__section header {
-      text-align: right;
-    }
+    // Left alignment. Leaving it commented out cause I am not sure whether I am gonna reuse it or not yet.
+    // .#{$prefix}__section header {
+    //   text-align: right;
+    // }
   }
 
   &__section {
