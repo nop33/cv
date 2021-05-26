@@ -17,10 +17,6 @@ const pagesConfig = [
   {
     input: 'src/index.njk',
     output: 'dist/index.html'
-  },
-  {
-    input: 'src/pages/back.njk',
-    output: 'dist/back/index.html'
   }
 ]
 
