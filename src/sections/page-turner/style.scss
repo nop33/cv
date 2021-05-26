@@ -17,4 +17,8 @@
   &--front {
     left: -50px;
   }
+
+  @media print {
+    display: none;
+  }
 }
