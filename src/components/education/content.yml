@@ -1,4 +1,9 @@
 - name: 'Computer Science Bsc'
-  institute: 'Aristotle University of Thessaloniki, Greece'
+  institute: 'Aristotle University of Thessaloniki Greece'
   start_date: '2008'
   end_date: '2014'
+
+- name: 'Exchange semester (LLP/ERASMUS)'
+  institute: 'Blekinge Institute of Technology Sweden'
+  start_date: '2010'
+  end_date: '2011'

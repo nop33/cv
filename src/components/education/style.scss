@@ -1,4 +1,10 @@
 .education {
+  @include subcolumn(
+    $number-of-columns: 2,
+    $margin: $subcolumn-row-spacing,
+    $padding: $page-spacing
+  );
+
   &__institute,
   &__date {
     @extend %h4;
