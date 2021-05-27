@@ -64,7 +64,7 @@
   start_date: 'August 2014'
   end_date: 'July 2017'
   description: |-
-    After graduating from university, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of both backend and frontend tasks as well as DevOps, user support and documentation, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. During my employment there I also implemented the <a href="https://getindico.io/">project's website</a> and built a styleguide for the whole web app.
+    After graduating from university, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of both backend and frontend tasks as well as DevOps, user support and documentation, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. During my employment there I also implemented the <a href="https://getindico.io/">project's website</a> and built a <a href="https://github.com/indico/indico-styleguide">styleguide</a> for the whole web app.
   tags:
     - HTML5
     - SCSS
