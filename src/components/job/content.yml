@@ -1,3 +1,19 @@
+- company: 'Freelance'
+  title: 'Frontend Engineer'
+  start_date: 'February 2021'
+  end_date: 'now'
+  description: Building blazing fast websites and web applications using modern JS frameworks and following latest best practices.
+  tags:
+    - HTML5
+    - SCSS
+    - ES6
+    - Webpack
+    - Gatsby
+    - React
+    - Netlify
+    - Git
+    - GitHub
+
 - company: 'Petro-Logistics SA'
   title: 'Software Engineer'
   start_date: 'June 2019'
