@@ -9,14 +9,12 @@
     - SCSS
     - ES6
     - Webpack
-    - Bulma
     - Hugo
     - Netlify
     - Netlify CMS
     - Git
     - GitLab
     - Jamstack
-    - Invision
     - Ansible
     - Docker
     - Bash
@@ -33,7 +31,6 @@
     - ES6
     - Webpack
     - React
-    - Bulma
     - Hugo
     - Netlify CMS
     - Git
@@ -46,7 +43,7 @@
   start_date: 'October 2017'
   end_date: 'May 2018'
   description: |-
-    Developed modern website concepts in an agile working team. At Station, I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> web app and website, as well as of the <a href="https://burgenstockresort.com/">Bürgenstock website</a>. During my time there I aquired project management skills and over time I obtained scrum master responsibilities.
+    Developed modern website concepts in an agile working team. I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> web app and website, as well as of the <a href="https://burgenstockresort.com/">Bürgenstock website</a>. During my time there I aquired project management skills and over time I obtained scrum master responsibilities.
   tags:
     - HTML5
     - SCSS
@@ -57,14 +54,13 @@
     - Jira
     - Bitbucket
     - Sketch
-    - Invision
 
 - company: 'Indico - CERN'
   title: 'Full-Stack Software Engineer'
   start_date: 'August 2014'
   end_date: 'July 2017'
   description: |-
-    After graduating from university, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of both backend and frontend tasks as well as DevOps, user support and documentation, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. During my employment there I also implemented the <a href="https://getindico.io/">project's website</a> and built a <a href="https://github.com/indico/indico-styleguide">styleguide</a> for the whole web app.
+    After graduation, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of frontend, backend, DevOps, user support, and documentation tasks, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. I also implemented the <a href="https://getindico.io/">project's website</a> and built a <a href="https://github.com/indico/indico-styleguide">styleguide</a> for the whole web app.
   tags:
     - HTML5
     - SCSS
