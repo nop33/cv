@@ -1,3 +1,21 @@
-<div class="skill">
-  <h3>{{ skill }}</h3>
-</div>
+<section class="entry {% if skill.periods %}has-left-content{% endif %}">
+  {% if skill.periods %}
+    <div class="left-content">
+      <div class="line"></div>
+      {% for period in skill.periods %}
+        <div class="marker date-{{ period.start.year }}-{{ period.start.month }}-{% if period.end == 'now' %}now{% else %}{{ period.end.year }}-{{ period.end.month }}{% endif %}">
+          <span class="start">{{ period.start.year }}</span>
+          <span class="end">{% if period.end == 'now' %}now{% else %}{{ period.end.year }}{% endif %}</span>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  <div class="main-content">
+    <header>
+      <h3>{{ skill.title }}</h3>
+    </header>
+    {% if skill.description %}
+      <p class="entry__description">{{ skill.description | safe }}</p>
+    {% endif %}
+  </div>
+</section>

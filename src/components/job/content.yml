@@ -1,23 +1,32 @@
-- company: 'Freelance'
-  title: 'Frontend Engineer'
-  start_date: 'February 2021'
-  end_date: 'now'
-  description: Building blazing fast websites and web applications using modern JS frameworks and following latest best practices.
+- subtitle: "Freelance"
+  title: "Frontend Engineer"
+  periods:
+    - start:
+        year: "2021"
+        month: "02"
+      end: "now"
+  description: Designing and building blazing fast websites using Jamstack architecture.
   tags:
     - HTML5
-    - SCSS
+    - CSS Modules
+    - styled-components
     - ES6
-    - Webpack
     - Gatsby
     - React
-    - Netlify
     - Git
     - GitHub
+    - Netlify
+    - Vercel
 
-- company: 'Petro-Logistics SA'
-  title: 'Software Engineer'
-  start_date: 'June 2019'
-  end_date: 'now'
+- subtitle: "Petro-Logistics SA"
+  title: "Software Engineer"
+  periods:
+    - start:
+        year: "2019"
+        month: "06"
+      end:
+        year: "2021"
+        month: "10"
   description: |-
     Leading the development of the <a href="https://www.petro-logistics.com">company's new website</a> with a Jamstack architecture while supervising the work of frontend engineers, designers, and content creators. Currently working on improving the internal infrastructure using Ansible, Docker, and GitLab CI/CD, setting up a Public Key Infrastructure, creating a backup system, and gathering requirements for a new system.
   tags:
@@ -35,10 +44,15 @@
     - Docker
     - Bash
 
-- company: 'Bity SA'
-  title: 'Frontend Engineer & Project Lead'
-  start_date: 'June 2018'
-  end_date: 'May 2019'
+- subtitle: "Bity SA"
+  title: "Frontend Engineer & Project Lead"
+  periods:
+    - start:
+        year: "2018"
+        month: "06"
+      end:
+        year: "2019"
+        month: "05"
   description: |-
     Working closely with designers, content creators, frontend and backend engineers, I organized, supervised, and implemented <a href="https://bity.com">Bity's website</a> with a Jamstack architecture as well as an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open-source web client</a> for Bity's cryptocurrency exchange API. In addition, I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
   tags:
@@ -54,10 +68,15 @@
     - Jamstack
     - Sketch
 
-- company: 'Station AG'
-  title: 'Frontend Engineer'
-  start_date: 'October 2017'
-  end_date: 'May 2018'
+- subtitle: "Station AG"
+  title: "Frontend Engineer"
+  periods:
+    - start:
+        year: "2017"
+        month: "10"
+      end:
+        year: "2018"
+        month: "05"
   description: |-
     Developed modern website concepts in an agile working team. I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> web app and website, as well as of the <a href="https://burgenstockresort.com/">Bürgenstock website</a>. During my time there I aquired project management skills and over time I obtained scrum master responsibilities.
   tags:
@@ -71,10 +90,15 @@
     - Bitbucket
     - Sketch
 
-- company: 'Indico - CERN'
-  title: 'Full-Stack Software Engineer'
-  start_date: 'August 2014'
-  end_date: 'July 2017'
+- subtitle: "Indico - CERN"
+  title: "Full-Stack Software Engineer"
+  periods:
+    - start:
+        year: "2014"
+        month: "08"
+      end:
+        year: "2017"
+        month: "07"
   description: |-
     After graduation, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of frontend, backend, DevOps, user support, and documentation tasks, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. I also implemented the <a href="https://getindico.io/">project's website</a> and built a <a href="https://github.com/indico/indico-styleguide">styleguide</a> for the whole web app.
   tags:
@@ -91,16 +115,26 @@
     - GitHub
     - Asana
 
-- company: 'CERN'
-  title: 'Full-Stack Software Engineer - Internship'
-  start_date: 'August 2013'
-  end_date: 'July 2014'
+- subtitle: "CERN"
+  title: "Full-Stack Software Engineer - Internship"
+  periods:
+    - start:
+        year: "2013"
+        month: "08"
+      end:
+        year: "2014"
+        month: "07"
   description:
   tags:
 
-- company: 'Aidgency Software'
-  title: 'Full-Stack Software Engineer - Internship'
-  start_date: 'July 2012'
-  end_date: 'April 2013'
+- subtitle: "Aidgency Software"
+  title: "Full-Stack Software Engineer - Internship"
+  periods:
+    - start:
+        year: "2012"
+        month: "07"
+      end:
+        year: "2013"
+        month: "04"
   description:
   tags:

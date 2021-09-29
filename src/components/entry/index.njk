@@ -1,0 +1,40 @@
+<section class="entry {% if entry.periods or entry.date %}has-left-content{% endif %}">
+  <div class="left-content">
+    <div class="line"></div>
+    {% if entry.date %}
+      <div class="dot date-{{ entry.date.year }}-{{ entry.date.month}}">
+        <div class="year">{{ entry.date.year }}</div>
+      </div>
+    {% else %}
+      {% for period in entry.periods %}
+        <div class="marker date-{{ period.start.year }}-{{ period.start.month }}-{% if period.end == 'now' %}now{% else %}{{ period.end.year }}-{{ period.end.month }}{% endif %}">
+          <span class="start">{{ period.start.year }}</span>
+          <span class="end">{% if period.end == 'now' %}now{% else %}{{ period.end.year }}{% endif %}</span>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+  <div class="main-content">
+    <header>
+      <h3>
+        <span>{{ entry.title }}</span>
+        {% if entry.subtitle %}<span> | {{ entry.subtitle }}</span>{% endif %}
+        {% if entry.link %}
+          <a href="{{ entry.link }}" target="_blank">
+            <i class="fas fa-link"></i>
+          </a>
+        {% endif %}
+      </h3>
+    </header>
+    {% if entry.description %}
+      <p class="entry__description">{{ entry.description | safe }}</p>
+    {% endif %}
+    {% if entry.tags %}
+      <ul class="entry__tag-list">
+        {% for tag in entry.tags %}
+          {% include '../tag/index.njk' %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</section>

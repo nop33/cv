@@ -1,11 +1,15 @@
 .language {
-  @include subcolumn(
-    $number-of-columns: auto,
-    $margin: $subcolumn-row-spacing,
-    $padding: $page-spacing
-  );
-
   &__level {
+    @extend %h3;
+    font-weight: 400;
+  }
+
+  &__description {
     @extend %h4;
+  }
+
+  .main-content {
+    display: flex;
+    gap: $columns-gap;
   }
 }

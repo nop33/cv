@@ -17,16 +17,11 @@
       <article class="page">
         {% include './sections/header/index.njk' %}
         <div>
-          <div class="column column--left">
-            {% include './sections/experience.njk' %}
-          </div>
-          <div class="separator separator--horizontal"></div>
-          <div class="column column--right">
+          <div class="page-sections">
+            {% include './sections/about.njk' %}
             {% include './sections/skills.njk' %}
-            {% include './sections/attributes.njk' %}
             {% include './sections/education.njk' %}
-            {% include './sections/languages/index.njk' %}
-            {% include './sections/certificates.njk' %}
+            {% include './sections/languages.njk' %}
           </div>
         </div>
         {% include './sections/footer/index.njk' %}
@@ -34,12 +29,19 @@
 
       <article class="page back">
         <div>
-          <div class="column column--left">
-            {% include './sections/activities.njk' %}
+          <div class="page-sections">
+            {% include './sections/experience.njk' %}
+            {% include './sections/training.njk' %}
           </div>
-          <div class="separator separator--horizontal"></div>
-          <div class="column column--right">
-            {% include './sections/interests.njk' %}
+        </div>
+        {% include './sections/footer/index.njk' %}
+      </article>
+
+      <article class="page back">
+        <div>
+          <div class="page-sections">
+            {% include './sections/projects.njk' %}
+            {% include './sections/others.njk' %}
           </div>
         </div>
         {% include './sections/footer/index.njk' %}
