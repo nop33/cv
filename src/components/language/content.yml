@@ -1,11 +1,12 @@
-- name: 'Greek'
-  level: 'native'
+- name: "Greek"
+  level: "native"
 
-- name: 'English'
-  level: 'C2'
+- name: "English"
+  level: "C2"
 
-- name: 'German'
-  level: 'B1'
+- name: "German"
+  level: "B1"
+  description: Actively studying
 
-- name: 'French'
-  level: 'A1'
+- name: "French"
+  level: "A1"

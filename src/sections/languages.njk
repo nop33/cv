@@ -1,0 +1,10 @@
+<section class="page__section ">
+  <header>
+    <h2>Languages</h2>
+  </header>
+  <div class="page__section__content">
+    {% for language in language_component_content %}
+      {% include '../components/language/index.njk' %}
+    {% endfor %}
+  </div>
+</section>

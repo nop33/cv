@@ -1,60 +1,32 @@
-.column {
+.page {
   $prefix: column;
-
-  &--left,
-  &--right {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: $page-spacing;
-    padding-bottom: 0;
-  }
-
-  &--right {
-    padding-right: 0;
-
-    .#{$prefix}__section__content {
-      padding-left: 0.1rem;
-    }
-  }
-
-  &--left {
-    padding-left: 0;
-
-    .#{$prefix}__section__content {
-      padding-right: 0.1rem;
-    }
-
-    // Left alignment. Leaving it commented out cause I am not sure whether I am gonna reuse it or not yet.
-    // .#{$prefix}__section header {
-    //   text-align: right;
-    // }
-  }
 
   &__section {
     &:not(:last-child) {
-      margin-bottom: $column-section-spacing;
+      margin-bottom: $page-spacing;
     }
 
     &__content {
-      margin-top: 2rem;
+      margin-top: 1.5rem;
 
       > section:not(:first-child) {
-        margin-top: 2rem;
+        margin-top: 1rem;
       }
     }
 
-    &--with-subcolumns {
-      .#{$prefix}__section__content {
+    header {
+      h2 {
         display: flex;
-        flex-wrap: wrap;
+        gap: $columns-gap;
+        align-items: center;
+
+        &::before {
+          content: " ";
+          display: block;
+          border-top: 5px solid$red;
+          width: $left-column-width;
+        }
       }
     }
   }
-}
-
-.separator {
-  width: 1px;
-  height: 100%;
-  display: block;
-  background-color: $dark;
 }

@@ -1,4 +1,11 @@
-<div class="language">
-  <h3>{{ language.name }}</h3>
-  <div class="language__level">{{ language.level }}</div>
-</div>
+<section class="language has-left-content">
+  <div class="left-content">
+    <header>
+      <h3>{{ language.name }}</h3>
+    </header>
+  </div>
+  <div class="main-content">
+    <div class="language__level">{{ language.level }}</div>
+    {% if language.description %}<div class="language__description">{{ language.description }}</div>{% endif %}
+  </div>
+</section>

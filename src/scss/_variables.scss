@@ -1,8 +1,10 @@
 $letter-width: 8.27in;
 $letter-height: 12in; // TODO: investigate issue with 11.69in on Safari iPhone
 
-$page-spacing: 14pt;
+$page-spacing: 20pt;
 $column-section-spacing: 3rem;
-$subcolumn-row-spacing: 1.5rem;
 
-$fa-font-path: '../static/fonts/fontawesome';
+$fa-font-path: "../static/fonts/fontawesome";
+
+$left-column-width: 180px;
+$columns-gap: 20px;
