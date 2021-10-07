@@ -6,13 +6,13 @@
 @mixin timeline-marker(
   $year-start,
   $month-start,
-  $year-end: 2021,
-  $month-end: 9
+  $year-end: $current-year,
+  $month-end: $current-month
 ) {
   $timeline-year-start: 2008;
   $timeline-month-start: 9;
-  $timeline-year-now: 2021;
-  $timeline-month-now: 9;
+  $timeline-year-now: $current-year;
+  $timeline-month-now: $current-month;
   $duration: ($year-end - $year-start) * 12 + ($month-end - $month-start);
   $months-since-beginning: ($year-start - $timeline-year-start) * 12 +
     ($month-start - $timeline-month-start);
@@ -29,8 +29,8 @@
 @mixin timeline-dot($year-start, $month-start) {
   $timeline-year-start: 2008;
   $timeline-month-start: 9;
-  $timeline-year-now: 2021;
-  $timeline-month-now: 9;
+  $timeline-year-now: $current-year;
+  $timeline-month-now: $current-month;
   $months-since-beginning: ($year-start - $timeline-year-start) * 12 +
     ($month-start - $timeline-month-start);
   $unit: $left-column-width /
