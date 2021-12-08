@@ -118,6 +118,10 @@
         @include timeline-marker(2021, 2);
       }
 
+      &.date-2021-11-now {
+        @include timeline-marker(2021, 11);
+      }
+
       &.date-2019-06-2021-10 {
         @include timeline-marker(2019, 6, 2021, 10);
       }

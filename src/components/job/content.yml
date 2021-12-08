@@ -1,3 +1,22 @@
+- subtitle: "Alephium"
+  title: "Frontend engineer"
+  periods:
+    - start:
+        year: "2021"
+        month: "11"
+      end: "now"
+  description:
+  tags:
+    - React
+    - TypeScript
+    - ES6
+    - styled-components
+    - Web3
+    - Blockchain
+    - Gatsby
+    - Git
+    - GitHub
+
 - subtitle: "Freelance"
   title: "Frontend Engineer"
   periods:
