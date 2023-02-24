@@ -4,7 +4,7 @@
         year: "2021"
         month: "06"
       end: "now"
-  description: "This year I focus on learning React. It enables me to work on a wide range of applications (web, mobile with React Native, static sites with Gatbsy)."
+  description: "The last years I am focusing on React. It enables me to work on a wide range of applications (web, desktop with Electron, mobile with React Native, static sites with Gatbsy)."
 
 - title: "TypeScript, styled-components"
   periods:
@@ -12,7 +12,7 @@
         year: "2021"
         month: "08"
       end: "now"
-  description: "Actively learning while working on freelance and side-projects."
+  description: 'I find great truth to the statement "Once you go TS, you never go back to JS".'
 
 - title: "Gatsby.js"
   periods:
@@ -20,7 +20,7 @@
         year: "2020"
         month: "10"
       end: "now"
-  description: "Since the end of 2020 I have used Gatsby in 2 freelance and 2 side-projects."
+  description: "Since the end of 2020 I have used Gatsby in 3 freelance and 2 side-projects."
 
 - title: "Vue.js"
   periods:
@@ -62,4 +62,4 @@
   description: "My passion for developing for the web starting after following a related seminar provided by my university and continues to this day."
 
 - title: "Other technical skills"
-  description: "Ansible, Bash, Docker, GitHub, GitLab, Python, jQuery"
+  description: "React Native, Electron, Webpack, Bash, Docker, GitHub, GitLab, NPM"

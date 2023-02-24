@@ -7,15 +7,6 @@
       end: "now"
   link: "https://github.com/nop33/artist2playlist"
 
-- title: "Muses.fm"
-  description: "A community-owned music curation platform built on DFINITY"
-  periods:
-    - start:
-        year: "2020"
-        month: "12"
-      end: "now"
-  link: "https://github.com/muses-fm/muses"
-
 - title: "Ilias creates (dev blog)"
   description: "My personal dev blog developed with Gatsby and CSS modules"
   periods:
