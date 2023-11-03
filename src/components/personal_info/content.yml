@@ -1,19 +1,19 @@
-- icon: ''
-  content: 'Zurich, CH'
-  link: ''
+- icon: ""
+  content: "Zurich, CH"
+  link: ""
 
-- icon: ''
-  content: 'iliascreates.com'
-  link: 'https://www.iliascreates.com/'
+- icon: ""
+  content: "iliascreates.com"
+  link: "https://www.iliascreates.com/"
 
-- icon: ''
-  content: 'cv@iliascreates.com'
-  link: 'mailto:cv@iliascreates.com'
+- icon: ""
+  content: "hlias.nop+cv@gmail.com"
+  link: "mailto:hlias.nop+cv@gmail.com"
 
-- icon: 'fab fa-linkedin'
-  content: 'in/iliastrichopoulos'
-  link: 'http://linkedin.com/in/iliastrichopoulos'
+- icon: "fab fa-linkedin"
+  content: "in/iliastrichopoulos"
+  link: "http://linkedin.com/in/iliastrichopoulos"
 
-- icon: 'fab fa-github'
-  content: 'nop33'
-  link: 'http://github.com/nop33'
+- icon: "fab fa-github"
+  content: "nop33"
+  link: "http://github.com/nop33"
