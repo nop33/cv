@@ -5,17 +5,16 @@
         year: "2021"
         month: "11"
       end: "now"
-  description: Creating beautiful, performant, and secure user interfaces and developer kits that allow users and developers to interact with the Alephium blockchain.
+  description: Creating beautiful, performant, and secure user interfaces and developer kits that allow users and developers to interact with the Alephium blockchain. Core maintainer of the <a href="https://github.com/alephium/alephium-frontend/" />frontend monorepo</a>.
   tags:
     - React
     - React Native
+    - Expo
     - Electon
     - TypeScript
-    - ES6
-    - styled-components
+    - Tanstack
     - Web3
     - Blockchain
-    - Gatsby
     - Git
     - GitHub
 
@@ -31,7 +30,6 @@
     - HTML5
     - CSS Modules
     - styled-components
-    - ES6
     - Gatsby
     - React
     - Git

@@ -28,24 +28,18 @@
         year: "2017"
         month: "10"
       end:
-        year: "2018"
-        month: "05"
-    - start:
-        year: "2020"
-        month: "03"
-      end:
         year: "2021"
         month: "05"
   description: "Started building Vue apps at my work in 2017 and continued in 2020 during hackathons and side-projects (Firebase SDK, Spotify API, DFINITY SDK)."
 
-- title: "JS (ES6)"
+- title: "JS"
   periods:
     - start:
         year: "2017"
         month: "10"
       end: "now"
 
-- title: "Git, SCSS, Designs to code (Jamstack)"
+- title: "Git, SCSS, Jamstack"
   periods:
     - start:
         year: "2014"

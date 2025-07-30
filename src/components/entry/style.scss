@@ -130,8 +130,8 @@
         @include timeline-marker(2018, 6, 2019, 5);
       }
 
-      &.date-2017-10-2018-05 {
-        @include timeline-marker(2017, 10, 2018, 5);
+      &.date-2017-10-2021-05 {
+        @include timeline-marker(2017, 10, 2021, 5);
       }
 
       &.date-2014-08-2017-07 {
@@ -160,6 +160,10 @@
 
       &.date-2017-10-now {
         @include timeline-marker(2017, 10);
+      }
+
+      &.date-2017-10-2018-05 {
+        @include timeline-marker(2017, 10, 2018, 5);
       }
 
       &.date-2021-08-now {
@@ -198,12 +202,24 @@
         @include timeline-marker(2020, 6);
       }
 
+      &.date-2020-06-2022-02 {
+        @include timeline-marker(2020, 6, 2022, 2);
+      }
+
+      &.date-2021-07-2021-09 {
+        @include timeline-marker(2021, 7, 2021, 9);
+      }
+
+      &.date-2025-01-now {
+        @include timeline-marker(2025, 1);
+      }
+
       &.date-2020-08-now {
         @include timeline-marker(2020, 8);
       }
 
-      &.date-2020-12-now {
-        @include timeline-marker(2020, 12);
+      &.date-2020-12-2021-10 {
+        @include timeline-marker(2020, 12, 2021, 10);
       }
 
       &.date-2021-07-now {
@@ -220,6 +236,10 @@
 
       &.date-2011-03-2013-06 {
         @include timeline-marker(2011, 3, 2013, 6);
+      }
+
+      &.date-2023-08-now {
+        @include timeline-marker(2023, 8);
       }
     }
   }

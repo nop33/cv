@@ -1,10 +1,20 @@
+- title: "PADI rescue diver"
+  description: ""
+  periods:
+    - start:
+        year: "2025"
+        month: "01"
+      end: "now"
+
 - title: "Hackathon series: Muses.fm"
   description: ""
   periods:
     - start:
         year: "2020"
         month: "12"
-      end: "now"
+      end:
+        year: "2021"
+        month: "10"
   link: "https://github.com/muses-fm/muses"
 
 - title: 'Talks/Workshops: "Flexbox, the yoga of CSS" and "The messed up story of U and my X"'
