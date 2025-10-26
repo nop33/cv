@@ -5,12 +5,18 @@
   "license": "MIT",
   "scripts": {
     "build": "node build.js",
+    "dev": "browser-sync start --server dist --files 'dist/**/*' --no-notify --no-open",
+    "watch": "chokidar 'src/**/*' -c 'yarn build'",
+    "start": "concurrently 'yarn watch' 'yarn dev'",
     "print": "yarn build && ./print.sh"
   },
   "dependencies": {
     "minireset.css": "^0.0.7"
   },
   "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^9.2.1",
     "js-yaml": "^4.1.0",
     "node-sass": "^6.0.0",
     "node-sass-package-importer": "^5.3.2",
