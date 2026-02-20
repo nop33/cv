@@ -1,15 +1,15 @@
-- icon: ""
-  content: "Zurich, CH"
-  link: ""
+- icon: ''
+  content: 'Zurich, Switzerland'
+  link: ''
 
-- icon: ""
-  content: "hlias.nop+cv@gmail.com"
-  link: "mailto:hlias.nop+cv@gmail.com"
+- icon: ''
+  content: 'ilias@pm.me'
+  link: 'mailto:ilias@pm.me'
 
-- icon: "fab fa-linkedin"
-  content: "in/iliastrichopoulos"
-  link: "http://linkedin.com/in/iliastrichopoulos"
+- icon: 'fab fa-linkedin'
+  content: 'in/iliastrichopoulos'
+  link: 'https://linkedin.com/in/iliastrichopoulos'
 
-- icon: "fab fa-github"
-  content: "nop33"
-  link: "http://github.com/nop33"
+- icon: 'fab fa-github'
+  content: 'nop33'
+  link: 'https://github.com/nop33'

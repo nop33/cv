@@ -1,159 +1,123 @@
-- subtitle: "Alephium"
-  title: "Frontend Engineer"
+- subtitle: 'Alephium (Core Team)'
+  title: 'Frontend Engineer'
+  time: 2021 - Present | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2021"
-        month: "11"
-      end: "now"
-  description: Creating beautiful, performant, and secure user interfaces and developer kits that allow users and developers to interact with the Alephium blockchain. Core maintainer of the <a href="https://github.com/alephium/alephium-frontend/" />frontend monorepo</a>.
-  tags:
-    - React
-    - React Native
-    - Expo
-    - Electon
-    - TypeScript
-    - Tanstack
-    - Web3
-    - Blockchain
-    - Git
-    - GitHub
+        year: '2021'
+        month: '11'
+      end: 'now'
+  description:
+    Lead developer and maintainer of the frontend monorepo powering wallets and explorer apps, working in a small, fast-iterating core team.
+    <ul>
+    <li>Architected and maintained secure cross-platform wallets handling blockchain transactions, Ledger hardware, and dApp interactions, serving 20,000+ active monthly users (React, RN, Electron, TS).</li>
+    <li>Designed performant state management and caching for live on-chain data (Redux, TanStack Query) improving app startup time by up to 26x and in-app performance up to 10x.</li>
+    <li>Shipped major UX improvements and features in wallets, explorer, and bridge interface.</li>
+    <li>Unified 3 apps into a single monorepo architecture (pnpm, Turborepo) improving devX and enabling code sharing.</li>
+    <li>Rebuilt Alephium.org with headless CMS & static-generation stack, achieving 100% Lighthouse performance score and seamless content updates.</li>
+    </ul>
 
-- subtitle: "Freelance"
-  title: "Frontend Engineer"
+- subtitle: 'Freelance'
+  title: 'Web Developer'
+  time: 2019 - 2022 | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2021"
-        month: "02"
-      end: "now"
-  description: Designing and building blazing fast websites using Jamstack architecture.
-  tags:
-    - HTML5
-    - CSS Modules
-    - styled-components
-    - Gatsby
-    - React
-    - Git
-    - GitHub
-    - Netlify
-    - Vercel
+        year: '2021'
+        month: '02'
+      end: 'now'
+  description: Delivered high-performance websites for small businesses and startups (React, Gatsby, Netlify).
 
-- subtitle: "Petro-Logistics SA"
-  title: "Software Engineer"
+- subtitle: 'Petro-Logistics SA'
+  title: 'Software Engineer'
+  time: 2019 - 2021 | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2019"
-        month: "06"
+        year: '2019'
+        month: '06'
       end:
-        year: "2021"
-        month: "10"
+        year: '2021'
+        month: '10'
   description: |-
-    Led the development of the <a href="https://www.petro-logistics.com">company's new website</a> with a Jamstack architecture while supervising the work of frontend engineers, designers, and content creators. Improved the internal infrastructure using Ansible, Docker, and GitLab CI/CD, set up a Public Key Infrastructure, created a backup system, and gathered requirements for a new system.
-  tags:
-    - HTML5
-    - SCSS
-    - ES6
-    - Webpack
-    - Hugo
-    - Netlify
-    - Netlify CMS
-    - Git
-    - GitLab
-    - Jamstack
-    - Ansible
-    - Docker
-    - Bash
+    Developed the company's website and internal systems infrastructure.
+    <ul>
+    <li>Led a small cross-functional team of engineers, designers, and content creators to develop the company's new website (Hugo, Netlify).</li>
+    <li>Implemented automated backup, PKI, and infra provisioning to improve reliability (Ansible, Docker, GitLab CI/CD, Bash).</li>
+    </ul>
 
-- subtitle: "Bity SA"
-  title: "Frontend Engineer & Project Lead"
+- subtitle: 'Bity SA'
+  title: 'Frontend Engineer & Project Lead'
+  time: 2018 - 2019 | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2018"
-        month: "06"
+        year: '2018'
+        month: '06'
       end:
-        year: "2019"
-        month: "05"
+        year: '2019'
+        month: '05'
   description: |-
-    Working closely with designers, content creators, frontend and backend engineers, I organized, supervised, and implemented <a href="https://bity.com">Bity's website</a> with a Jamstack architecture as well as an <a href="https://www.npmjs.com/package/@bity/react-exchange-client">open-source web client</a> for Bity's cryptocurrency exchange API. I provided UI/UX assistance to Bity's partners and performed extended research on the technology stack of Bity's products.
-  tags:
-    - HTML5
-    - SCSS
-    - ES6
-    - Webpack
-    - React
-    - Hugo
-    - Netlify CMS
-    - Git
-    - GitLab
-    - Jamstack
-    - Sketch
+    Worked on the company's cryptocurrency exchange web client and public website.
+    <ul>
+    <li>Led the frontend implementation of Bity's main website and open-source React exchange client.</li>
+    <li>Collaborated with designers and backend teams to deliver responsive, performant UIs.</li>
+    </ul>
 
-- subtitle: "Station AG"
-  title: "Frontend Engineer"
+- subtitle: 'Station AG'
+  title: 'Frontend Engineer'
+  time: 2017 - 2018 | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2017"
-        month: "10"
+        year: '2017'
+        month: '10'
       end:
-        year: "2018"
-        month: "05"
+        year: '2018'
+        month: '05'
   description: |-
-    Developed modern website concepts in an agile working team. I led the frontend development of the Amnesty International <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee">I'M HERE campaign</a> web app and website, as well as of the <a href="https://burgenstockresort.com/">Bürgenstock website</a>. During my time there I aquired project management skills and over time I obtained scrum master responsibilities.
-  tags:
-    - HTML5
-    - SCSS
-    - ES6
-    - Vue.js
-    - Bulma
-    - Git
-    - Jira
-    - Bitbucket
-    - Sketch
+    Delivered interactive web experiences for high-profile clients.
+    <ul>
+    <li>Developed modern Vue and ES6 web apps (Amnesty International <i>I'M HERE</i> campaign <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee" target="_blank"><i class="fas fa-link"></i></a>).</li>
+    <li>Assumed Scrum-master responsibilities, ensuring on-time delivery in an agile setup.</li>
+    <li>Collaborated closely with designers to craft engaging, accessible UI experiences.</li>
+    </ul>
 
-- subtitle: "Indico - CERN"
-  title: "Full-Stack Software Engineer"
+- subtitle: 'Indico - CERN'
+  title: 'Full-Stack Software Engineer'
+  time: 2014 - 2017 | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2014"
-        month: "08"
+        year: '2014'
+        month: '08'
       end:
-        year: "2017"
-        month: "07"
+        year: '2017'
+        month: '07'
   description: |-
-    After graduation, I joined the Indico team at CERN to rewrite Indico's complete codebase. While taking care of frontend, backend, DevOps, user support, and documentation tasks, my main focus was on UX improvements, introducing multiple reusable interface components for a more coherent UI. I also implemented the <a href="https://getindico.io/">project's website</a> and built a <a href="https://github.com/indico/indico-styleguide">styleguide</a> for the whole web app.
-  tags:
-    - HTML5
-    - SCSS
-    - JS
-    - jQuery
-    - Bootstrap
-    - Jekyll
-    - Python
-    - Flask
-    - PostgreSQL
-    - Git
-    - GitHub
-    - Asana
+    Contributed to the complete rewrite of Indico's open-source conference-management platform used by thousands of events worldwide.
+    <ul>
+    <li>Developed reusable frontend components and improved overall UX consistency (HTML5, jQuery).</li>
+    <li>Supported backend (Python, Flask, PostgreSQL) and DevOps efforts to modernize the platform.</li>
+    <li>Implemented Indico's public website and internal style-guide for design coherence.</li>
+    </ul>
 
-- subtitle: "CERN"
-  title: "Full-Stack Software Engineer - Internship"
+- subtitle: 'CERN'
+  title: 'Full-Stack Software Engineer - Internship'
+  time: 2013 - 2014 | Switzerland 🇨🇭
   periods:
     - start:
-        year: "2013"
-        month: "08"
+        year: '2013'
+        month: '08'
       end:
-        year: "2014"
-        month: "07"
+        year: '2014'
+        month: '07'
   description:
   tags:
 
-- subtitle: "Aidgency Software"
-  title: "Full-Stack Software Engineer - Internship"
+- subtitle: 'Aidgency Software'
+  title: 'Full-Stack Software Engineer - Internship'
+  time: 2012 - 2013 | Germany 🇩🇪
   periods:
     - start:
-        year: "2012"
-        month: "07"
+        year: '2012'
+        month: '07'
       end:
-        year: "2013"
-        month: "04"
+        year: '2013'
+        month: '04'
   description:
   tags:

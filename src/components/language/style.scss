@@ -1,4 +1,6 @@
 .language {
+  margin-top: 0.3rem !important;
+
   &__level {
     @extend %h3;
     font-weight: 400;

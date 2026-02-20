@@ -1,5 +1,5 @@
 <section class="entry {% if entry.periods or entry.date %}has-left-content{% endif %}">
-  <div class="left-content">
+  {# <div class="left-content">
     <div class="line"></div>
     {% if entry.date %}
       <div class="dot date-{{ entry.date.year }}-{{ entry.date.month}}">
@@ -13,19 +13,26 @@
         </div>
       {% endfor %}
     {% endif %}
-  </div>
+  </div> #}
   <div class="main-content">
     <header>
       <h3>
-        <span>{{ entry.title }}</span>
-        {% if entry.subtitle %}<span> | {{ entry.subtitle }}</span>{% endif %}
-        {% if entry.link %}
-          <a href="{{ entry.link }}" target="_blank">
-            <i class="fas fa-link"></i>
-          </a>
-        {% endif %}
+        <div class="entry__title__content">
+          <div>
+            <span>{{ entry.title }}</span>
+            {% if entry.subtitle %}<span> | {{ entry.subtitle }}</span>{% endif %}
+            {% if entry.link %}
+              <a href="{{ entry.link }}" target="_blank">
+                <i class="fas fa-link"></i>
+              </a>
+            {% endif %}
+          </div>
+
+          {% if entry.time %}<div class="entry__time">{{ entry.time }}</div>{% endif %}
+        </div>
       </h3>
     </header>
+    {% if entry.timeplace %}<div class="entry__time">{{ entry.timeplace }}</div>{% endif %}
     {% if entry.description %}
       <p class="entry__description">{{ entry.description | safe }}</p>
     {% endif %}

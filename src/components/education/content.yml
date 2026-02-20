@@ -1,19 +1,7 @@
-- title: "Computer Science Bsc"
-  description: "Aristotle University of Thessaloniki Greece"
-  periods:
-    - start:
-        year: "2008"
-        month: "09"
-      end:
-        year: "2014"
-        month: "06"
+- title: 'Computer Science Bsc'
+  timeplace: 2008 - 2014 | Greece 🇬🇷
+  description: ' Aristotle University of Thessaloniki'
 
-- title: "Exchange semester (LLP/ERASMUS)"
-  description: "Blekinge Institute of Technology Sweden"
-  periods:
-    - start:
-        year: "2010"
-        month: "09"
-      end:
-        year: "2011"
-        month: "01"
+- title: 'Exchange semester'
+  timeplace: 2010 | Sweden 🇸🇪
+  description: 'Blekinge Institute of Technology'

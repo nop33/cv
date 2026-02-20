@@ -5,7 +5,7 @@
     <title>Ilias Trichopoulos CV</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Jura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/solid.css" integrity="sha384-qPldrzmea0i8jhonuql0da/kQWeaXdQl+krGXcTQUdRUGHcXBfSrBbZLbyMcCWcF" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/brands.css" integrity="sha384-qVnmyLTtnGPGEN3HDG2MCEOXWH1Yk/i70lKRuV+gMCDQg+jblQlFGPf1mejWUyYG" crossorigin="anonymous">
@@ -18,30 +18,20 @@
         {% include './sections/header/index.njk' %}
         <div>
           <div class="page-sections">
-            {% include './sections/about.njk' %}
-            {% include './sections/skills.njk' %}
-            {% include './sections/education.njk' %}
-            {% include './sections/languages.njk' %}
-          </div>
-        </div>
-        {% include './sections/footer/index.njk' %}
-      </article>
-
-      <article class="page back">
-        <div>
-          <div class="page-sections">
-            {% include './sections/experience.njk' %}
-            {% include './sections/training.njk' %}
-          </div>
-        </div>
-        {% include './sections/footer/index.njk' %}
-      </article>
-
-      <article class="page back">
-        <div>
-          <div class="page-sections">
-            {% include './sections/projects.njk' %}
-            {% include './sections/others.njk' %}
+            <div class="top-section">
+              {% include './sections/about.njk' %}
+            </div>
+            <div class="columns">
+              <div class="left-side-bar">
+                {% include './sections/skills.njk' %}
+                {% include './sections/proud.njk' %}
+                {% include './sections/education.njk' %}
+                {% include './sections/languages.njk' %}
+              </div>
+              <div class="right-main-content">
+                {% include './sections/experience.njk' %}
+              </div>
+            </div>
           </div>
         </div>
         {% include './sections/footer/index.njk' %}

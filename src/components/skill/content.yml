@@ -1,59 +1,8 @@
-- title: "React"
-  periods:
-    - start:
-        year: "2021"
-        month: "06"
-      end: "now"
-  description: "The last years I am focusing on React. It enables me to work on a wide range of applications (web, desktop with Electron, mobile with React Native, static sites with Gatbsy)."
+- title: 'Tech'
+  description: 'React, Typescript, React Native, Git, Electron, TanStack Query, Redux, Web3, GitHub Actions, Monorepos'
 
-- title: "TypeScript, styled-components"
-  periods:
-    - start:
-        year: "2021"
-        month: "08"
-      end: "now"
-  description: 'I find great truth to the statement "Once you go TS, you never go back to JS".'
+- title: 'Work'
+  description: 'Performance profiling & optimization, Pixel-perfect design implementation, Project ownership, Execution precision, Strong understanding of DeFi UX'
 
-- title: "Gatsby.js"
-  periods:
-    - start:
-        year: "2020"
-        month: "10"
-      end: "now"
-  description: "Since the end of 2020 I have used Gatsby in 3 freelance and 2 side-projects."
-
-- title: "Vue.js"
-  periods:
-    - start:
-        year: "2017"
-        month: "10"
-      end:
-        year: "2021"
-        month: "05"
-  description: "Started building Vue apps at my work in 2017 and continued in 2020 during hackathons and side-projects (Firebase SDK, Spotify API, DFINITY SDK)."
-
-- title: "JS"
-  periods:
-    - start:
-        year: "2017"
-        month: "10"
-      end: "now"
-
-- title: "Git, SCSS, Jamstack"
-  periods:
-    - start:
-        year: "2014"
-        month: "08"
-      end: "now"
-  description: "Translating designs to performant and responsive websites with Static Site Generators (Jekyll, Hugo, Gatsby) and modern HTML, CSS, and JS. Deploying them on CDNs (Netlify, Vercel)."
-
-- title: "Web development"
-  periods:
-    - start:
-        year: "2011"
-        month: "09"
-      end: "now"
-  description: "My passion for developing for the web starting after following a related seminar provided by my university and continues to this day."
-
-- title: "Other technical skills"
-  description: "React Native, Electron, Webpack, Bash, Docker, GitHub, GitLab, NPM"
+- title: 'Human'
+  description: 'Clear communicator, Curious, Organized, Eye for details, Good mood transmitter'
