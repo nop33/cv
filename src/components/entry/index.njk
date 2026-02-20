@@ -24,7 +24,7 @@
     {% if entry.tags %}
       <div class="flex flex-wrap list-none -mx-2 p-0 mt-0">
         {% for tag in entry.tags %}
-          {% include '../tag/index.njk' %}
+          {% include 'src/components/tag/index.njk' %}
         {% endfor %}
       </div>
     {% endif %}

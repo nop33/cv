@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf8">
     <title>Ilias Trichopoulos CV</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/solid.css" integrity="sha384-qPldrzmea0i8jhonuql0da/kQWeaXdQl+krGXcTQUdRUGHcXBfSrBbZLbyMcCWcF" crossorigin="anonymous">
@@ -12,30 +10,31 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/fontawesome.css" integrity="sha384-hM7EQerc09E4O3zhtvF2iqcB4ZkEu9xkLQndhXdGGCEJ/sB4JK54SuKGmIC35UTf" crossorigin="anonymous">
   </head>
   <body>
-    {% include './components/github_corner/index.njk' %}
+    {% include 'src/components/github_corner/index.njk' %}
     <main>
       <article class="page">
-        {% include './sections/header/index.njk' %}
+        {% include 'src/sections/header/index.njk' %}
         <div>
           <div class="page-sections">
             <div class="top-section">
-              {% include './sections/about.njk' %}
+              {% include 'src/sections/about.njk' %}
             </div>
             <div class="columns">
               <div class="left-side-bar">
-                {% include './sections/skills.njk' %}
-                {% include './sections/proud.njk' %}
-                {% include './sections/education.njk' %}
-                {% include './sections/languages.njk' %}
+                {% include 'src/sections/skills.njk' %}
+                {% include 'src/sections/proud.njk' %}
+                {% include 'src/sections/education.njk' %}
+                {% include 'src/sections/languages.njk' %}
               </div>
               <div class="right-main-content">
-                {% include './sections/experience.njk' %}
+                {% include 'src/sections/experience.njk' %}
               </div>
             </div>
           </div>
         </div>
-        {% include './sections/footer/index.njk' %}
+        {% include 'src/sections/footer/index.njk' %}
       </article>
     </main>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

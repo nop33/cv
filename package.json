@@ -4,21 +4,19 @@
   "description": "My CV, made with web technologies",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js",
-    "dev": "browser-sync start --server dist --files 'dist/**/*' --no-notify --no-open",
-    "watch": "chokidar 'src/**/*' -c 'yarn build'",
-    "start": "concurrently 'yarn watch' 'yarn dev'",
-    "print": "yarn build && ./print.sh"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.4.24",
-    "browser-sync": "^3.0.4",
-    "chokidar-cli": "^3.0.0",
-    "concurrently": "^9.2.1",
-    "js-yaml": "^4.1.0",
-    "nunjucks": "^3.2.0",
+    "glob": "^13.0.6",
+    "js-yaml": "^4.1.1",
+    "nunjucks": "^3.2.4",
     "postcss": "^8.5.6",
-    "tailwindcss": "3"
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1",
+    "vite-plugin-nunjucks": "^0.2.0"
   }
 }
