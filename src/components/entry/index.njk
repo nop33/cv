@@ -1,23 +1,8 @@
-<section class="entry {% if entry.periods or entry.date %}has-left-content{% endif %}">
-  {# <div class="left-content">
-    <div class="line"></div>
-    {% if entry.date %}
-      <div class="dot date-{{ entry.date.year }}-{{ entry.date.month}}">
-        <div class="year">{{ entry.date.year }}</div>
-      </div>
-    {% else %}
-      {% for period in entry.periods %}
-        <div class="marker date-{{ period.start.year }}-{{ period.start.month }}-{% if period.end == 'now' %}now{% else %}{{ period.end.year }}-{{ period.end.month }}{% endif %}">
-          <span class="start">{{ period.start.year }}</span>
-          <span class="end">{% if period.end == 'now' %}now{% else %}{{ period.end.year }}{% endif %}</span>
-        </div>
-      {% endfor %}
-    {% endif %}
-  </div> #}
-  <div class="main-content">
+<section class="entry">
+  <div class="w-full">
     <header>
       <h3>
-        <div class="entry__title__content">
+        <div class="flex gap-[10px] items-center">
           <div>
             <span>{{ entry.title }}</span>
             {% if entry.subtitle %}<span> | {{ entry.subtitle }}</span>{% endif %}
@@ -28,20 +13,20 @@
             {% endif %}
           </div>
 
-          {% if entry.time %}<div class="entry__time">{{ entry.time }}</div>{% endif %}
+          {% if entry.time %}<div class="text-base font-normal text-cv-light">{{ entry.time }}</div>{% endif %}
         </div>
       </h3>
     </header>
-    {% if entry.timeplace %}<div class="entry__time">{{ entry.timeplace }}</div>{% endif %}
+    {% if entry.timeplace %}<div class="text-base font-normal text-cv-light">{{ entry.timeplace }}</div>{% endif %}
     {% if entry.description %}
-      <p class="entry__description">{{ entry.description | safe }}</p>
+      <div class="entry-content">{{ entry.description | safe }}</div>
     {% endif %}
     {% if entry.tags %}
-      <ul class="entry__tag-list">
+      <div class="flex flex-wrap list-none -mx-2 p-0 mt-0">
         {% for tag in entry.tags %}
           {% include '../tag/index.njk' %}
         {% endfor %}
-      </ul>
+      </div>
     {% endif %}
   </div>
 </section>
