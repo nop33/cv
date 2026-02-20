@@ -1,0 +1,42 @@
+- title: 'ES6, React, Vue'
+  description: 'Courses on Frontend Masters and Udemy with content of more than 120h'
+  periods:
+    - start:
+        year: '2019'
+        month: '06'
+      end:
+        year: '2021'
+        month: '06'
+
+- title: 'DFIN 511: Introduction to Digital Currencies'
+  description: '3 months online course from University of Nicosia | Score: 98.83%'
+  periods:
+    - start:
+        year: '2020'
+        month: '09'
+      end:
+        year: '2020'
+        month: '12'
+  link: 'https://www.unic.ac.cy/blockchain/free-mooc/'
+
+- title: 'Python Advanced hands-on seminar series'
+  description: '3 day course at CERN'
+  date:
+    year: '2015'
+    month: '01'
+
+- title: 'Design for Usability seminar'
+  description: '3 day course at CERN'
+  date:
+    year: '2014'
+    month: '01'
+
+- title: 'Web application development'
+  description: '5 months seminar series from Aristotle University of Thessaloniki'
+  periods:
+    - start:
+        year: '2011'
+        month: '09'
+      end:
+        year: '2012'
+        month: '02'

@@ -1,13 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="utf8">
+    <meta charset="utf8" />
     <title>Ilias Trichopoulos CV</title>
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/solid.css" integrity="sha384-qPldrzmea0i8jhonuql0da/kQWeaXdQl+krGXcTQUdRUGHcXBfSrBbZLbyMcCWcF" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/brands.css" integrity="sha384-qVnmyLTtnGPGEN3HDG2MCEOXWH1Yk/i70lKRuV+gMCDQg+jblQlFGPf1mejWUyYG" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/fontawesome.css" integrity="sha384-hM7EQerc09E4O3zhtvF2iqcB4ZkEu9xkLQndhXdGGCEJ/sB4JK54SuKGmIC35UTf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.2/css/solid.css"
+      integrity="sha384-qPldrzmea0i8jhonuql0da/kQWeaXdQl+krGXcTQUdRUGHcXBfSrBbZLbyMcCWcF"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.2/css/brands.css"
+      integrity="sha384-qVnmyLTtnGPGEN3HDG2MCEOXWH1Yk/i70lKRuV+gMCDQg+jblQlFGPf1mejWUyYG"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.10.2/css/fontawesome.css"
+      integrity="sha384-hM7EQerc09E4O3zhtvF2iqcB4ZkEu9xkLQndhXdGGCEJ/sB4JK54SuKGmIC35UTf"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     {% include 'src/components/github_corner/index.njk' %}
@@ -16,19 +34,13 @@
         {% include 'src/sections/header/index.njk' %}
         <div>
           <div class="page-sections">
-            <div class="top-section">
-              {% include 'src/sections/about.njk' %}
-            </div>
+            <div class="top-section">{% include 'src/sections/about.njk' %}</div>
             <div class="columns">
               <div class="left-side-bar">
-                {% include 'src/sections/skills.njk' %}
-                {% include 'src/sections/proud.njk' %}
-                {% include 'src/sections/education.njk' %}
-                {% include 'src/sections/languages.njk' %}
+                {% include 'src/sections/skills.njk' %} {% include 'src/sections/proud.njk' %} {%
+                include 'src/sections/education.njk' %} {% include 'src/sections/languages.njk' %}
               </div>
-              <div class="right-main-content">
-                {% include 'src/sections/experience.njk' %}
-              </div>
+              <div class="right-main-content">{% include 'src/sections/experience.njk' %}</div>
             </div>
           </div>
         </div>

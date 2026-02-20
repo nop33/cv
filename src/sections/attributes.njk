@@ -3,8 +3,8 @@
     <h2>Strengths</h2>
   </header>
   <div class="page__section__content">
-    {% for attribute in attribute_component_content %}
-      {% include 'src/components/attribute/index.njk' %}
+    {% for attribute in attributes %}
+      {% include 'src/sections/attribute.njk' %}
     {% endfor %}
   </div>
 </section>

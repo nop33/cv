@@ -3,8 +3,8 @@
     <h2>Languages</h2>
   </header>
   <div class="page__section__content">
-    {% for language in language_component_content %}
-      {% include 'src/components/language/index.njk' %}
+    {% for language in languages %}
+      {% include 'src/sections/language.njk' %}
     {% endfor %}
   </div>
 </section>

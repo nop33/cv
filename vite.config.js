@@ -6,11 +6,18 @@ import path from 'path';
 
 function loadContent() {
   const content = {};
-  const components = globSync('src/components/*/content.yml');
+  const sectionFiles = globSync('src/sections/**/*.yml');
 
-  components.forEach(filepath => {
-    const componentName = path.basename(path.dirname(filepath));
-    const key = `${componentName}_component_content`;
+  sectionFiles.forEach((filepath) => {
+    let key;
+    // If filename is content.yml, use parent directory name (e.g. src/sections/footer/content.yml -> footer)
+    if (path.basename(filepath) === 'content.yml') {
+      key = path.basename(path.dirname(filepath));
+    } else {
+      // Otherwise use filename without extension (e.g. src/sections/activities.yml -> activities)
+      key = path.basename(filepath, '.yml');
+    }
+
     try {
       const fileContent = fs.readFileSync(filepath, 'utf8');
       const value = yaml.load(fileContent);
@@ -32,13 +39,13 @@ export default {
       variables: { '*': data },
       nunjucksEnvironment: {
         autoescape: true,
-      }
-    })
+      },
+    }),
   ],
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: 'index.html'
-    }
-  }
-}
+      input: 'index.html',
+    },
+  },
+};

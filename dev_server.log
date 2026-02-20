@@ -1,0 +1,25 @@
+
+> my-cv@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 850 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+4:26:58 PM [vite] hmr update /src/css/styles.css
+4:28:36 PM [vite] hmr update /src/css/styles.css
+4:33:14 PM [vite] page reload tailwind.config.cjs
+4:34:08 PM [vite] page reload src/sections/header/index.njk
+4:40:08 PM [vite] page reload src/components/activity/index.njk
+4:40:08 PM [vite] page reload src/components/attribute/index.njk
+4:40:08 PM [vite] page reload src/components/interest/index.njk
+4:40:08 PM [vite] page reload src/components/language/index.njk
+4:40:08 PM [vite] page reload src/components/personal_info/index.njk
+4:40:08 PM [vite] page reload src/components/skill/index.njk
+4:42:05 PM [vite] vite.config.js changed, restarting server...
+4:42:05 PM [vite] server restarted.
+4:47:03 PM [vite] page reload index.html
+4:47:04 PM [vite] vite.config.js changed, restarting server...
+Re-optimizing dependencies because lockfile has changed
+4:47:04 PM [vite] server restarted.
