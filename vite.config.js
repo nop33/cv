@@ -11,18 +11,25 @@ function loadContent() {
   components.forEach(filepath => {
     const componentName = path.basename(path.dirname(filepath));
     const key = `${componentName}_component_content`;
-    const value = yaml.load(fs.readFileSync(filepath, 'utf8'));
-    content[key] = value;
+    try {
+      const fileContent = fs.readFileSync(filepath, 'utf8');
+      const value = yaml.load(fileContent);
+      content[key] = value;
+    } catch (e) {
+      console.error(`Error loading ${filepath}:`, e);
+    }
   });
 
   return content;
 }
 
+const data = loadContent();
+
 export default {
   base: './',
   plugins: [
     nunjucks({
-      variables: loadContent(),
+      variables: { '*': data },
       nunjucksEnvironment: {
         autoescape: true,
       }
