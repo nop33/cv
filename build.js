@@ -3,15 +3,8 @@
 
 const fs = require('fs');
 const nunjucks = require('nunjucks');
-const sass = require('node-sass');
-const packageImporter = require('node-sass-package-importer');
+const { exec } = require('child_process');
 const yaml = require('js-yaml');
-
-const sassConfig = {
-  file: 'src/scss/index.scss',
-  outFile: 'dist/styles.css',
-  importer: packageImporter()
-};
 
 const pagesConfig = [
   {
@@ -20,14 +13,13 @@ const pagesConfig = [
   }
 ]
 
-sass.render(sassConfig, (error, result) => {
-  if (error) return console.log(error);
-
-  fs.writeFile(sassConfig.outFile, result.css, (error) => {
-    if (error) return console.log(error);
-
-    console.log(`✅ CSS file generated at ${sassConfig.outFile}`);
-  })
+exec('npx tailwindcss -i src/css/styles.css -o dist/styles.css', (err, stdout, stderr) => {
+  if (err) {
+    console.error(`exec error: ${err}`);
+    console.error(stderr);
+    return;
+  }
+  console.log(`✅ CSS file generated at dist/styles.css`);
 });
 
 buildContent().then(content => {

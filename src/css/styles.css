@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-[12px];
+  }
+  body {
+    @apply m-0 bg-cv-background flex flex-col min-h-screen items-center font-roboto text-cv-primary;
+  }
+  h1 {
+    @apply font-inter text-[2.5rem] uppercase text-cv-red;
+  }
+  h2 {
+    @apply font-inter text-[1.5rem] text-cv-red;
+  }
+  h3 {
+    @apply text-[1.1rem] font-medium text-cv-dark mb-2;
+  }
+  h4 {
+    @apply text-base font-normal text-cv-light;
+  }
+  p {
+    @apply font-normal text-cv-primary;
+  }
+  a {
+    @apply text-cv-light;
+  }
+  a i {
+    @apply text-[0.8em];
+  }
+}
+
+@layer components {
+  /* Page component */
+  .page {
+    @apply w-letter h-letter;
+    @apply flex flex-col p-page bg-white my-8 mx-auto relative;
+
+    /* Pseudo elements for shadow */
+    &::before, &::after {
+      @apply -z-10 absolute content-[''] bottom-4 w-1/2 top-[90%] bg-cv-light;
+      box-shadow: 0 1rem 0.5rem theme('colors.cv-light');
+    }
+    &::before {
+      @apply -rotate-3 left-2;
+    }
+    &::after {
+      @apply rotate-3 right-2;
+    }
+
+    &:not(.back) {
+      @apply pt-0;
+    }
+
+    > div {
+      @apply flex items-stretch h-full;
+    }
+  }
+
+  /* .page children from layout.scss */
+  .page__section:not(:last-child) {
+    @apply mb-page;
+  }
+  .page__section__content {
+    @apply mt-[1.2rem];
+  }
+  .page__section__content > section:not(:first-child) {
+    @apply mt-[1.2rem];
+  }
+  .page__section header h2 {
+    @apply flex gap-[30px] items-center;
+  }
+
+  /* Columns */
+  .columns {
+    @apply flex gap-[30px] mt-6;
+  }
+  .left-side-bar {
+    @apply w-left-column;
+  }
+  .right-main-content {
+    @apply flex-1;
+  }
+
+  /* Entry Content for descriptions with lists */
+  .entry-content {
+    @apply mt-2 text-cv-primary;
+
+    & ul {
+      @apply list-[circle] pl-4 mt-2;
+    }
+    & ul li:not(:last-child) {
+      @apply mb-[0.2rem];
+    }
+  }
+}
+
+@media print {
+  body {
+    @apply w-letter h-letter h-[11.69in];
+  }
+  .page {
+    @apply m-0 h-[11.69in];
+  }
+  .page::before, .page::after {
+    @apply hidden;
+  }
+
+  @page {
+    size: auto;
+    margin: 0;
+  }
+
+  /* Entry content print fix */
+  .entry-content ul {
+    @apply pl-[1.3rem];
+  }
+}

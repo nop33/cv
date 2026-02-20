@@ -1,12 +1,5 @@
-<div class="personal-info">
-  {% if info.icon %}
-    <i class="{{ info.icon }}"></i>
-  {% endif %}
-  {% if info.link %}
-    <a href="{{ info.link }}">
-      {{ info.content }}
-    </a>
-  {% else %}
-    <span>{{ info.content }}</span>
-  {% endif %}
+<div class="px-4 border-r border-cv-light first:pl-0 last:pr-0 last:border-r-0 text-cv-light">
+  {% if info.link %}<a href="{{ info.link }}" target="_blank" class="no-underline text-cv-light">{% endif %}
+    {% if info.icon %}<i class="{{ info.icon }}"></i> {% endif %}{{ info.title }}
+  {% if info.link %}</a>{% endif %}
 </div>
