@@ -1,0 +1,48 @@
+- title: 'Fetamin'
+  description: 'My personal website for my DJ alias'
+  periods:
+    - start:
+        year: '2023'
+        month: '08'
+      end: 'now'
+  link: 'https://www.fetam.in'
+
+- title: 'Flatwise'
+  description: 'Vue app to help me and my flatmates calculate the depreciation value of commonly bought items'
+  periods:
+    - start:
+        year: '2020'
+        month: '06'
+      end: 'now'
+  link: 'https://github.com/nop33/flatwise'
+
+- title: 'CV'
+  description: 'This very CV, written in HTML and CSS'
+  periods:
+    - start:
+        year: '2019'
+        month: '08'
+      end: 'now'
+  link: 'https://github.com/nop33/cv'
+
+- title: 'Artist2Playlist'
+  description: 'React app to fetch all the tracks of a Spotify artist and create a private playlist'
+  periods:
+    - start:
+        year: '2021'
+        month: '07'
+      end:
+        year: '2021'
+        month: '09'
+  link: 'https://github.com/nop33/artist2playlist'
+
+- title: 'Tracklists'
+  description: 'Vue app with Spotify API integration to help me organize my downloaded  music library'
+  periods:
+    - start:
+        year: '2020'
+        month: '06'
+      end:
+        year: '2022'
+        month: '02'
+  link: 'https://github.com/nop33/tracklists'

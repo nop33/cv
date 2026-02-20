@@ -3,8 +3,8 @@
     <h2>Interests</h2>
   </header>
   <div class="page__section__content">
-    {% for interest in interest_component_content %}
-      {% include 'src/components/interest/index.njk' %}
+    {% for interest in interests %}
+      {% include 'src/sections/interest.njk' %}
     {% endfor %}
   </div>
 </section>

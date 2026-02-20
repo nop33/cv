@@ -3,8 +3,8 @@
     <h2>Talks & Volunteer work</h2>
   </header>
   <div class="page__section__content">
-    {% for activity in activity_component_content %}
-      {% include 'src/components/activity/index.njk' %}
+    {% for activity in activities %}
+      {% include 'src/sections/activity.njk' %}
     {% endfor %}
   </div>
 </section>

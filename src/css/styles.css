@@ -7,7 +7,7 @@
     @apply text-[12px];
   }
   body {
-    @apply m-0 bg-cv-background flex flex-col min-h-screen items-center font-roboto text-cv-primary;
+    @apply m-0 bg-cv-background flex flex-col min-h-screen items-center font-roboto text-cv-primary leading-[1.15];
   }
   h1 {
     @apply font-inter text-[2.5rem] uppercase text-cv-red;
@@ -39,7 +39,8 @@
     @apply flex flex-col p-page bg-white my-8 mx-auto relative;
 
     /* Pseudo elements for shadow */
-    &::before, &::after {
+    &::before,
+    &::after {
       @apply -z-10 absolute content-[''] bottom-4 w-1/2 top-[90%] bg-cv-light;
       box-shadow: 0 1rem 0.5rem theme('colors.cv-light');
     }
@@ -55,7 +56,7 @@
     }
 
     > div {
-      @apply flex items-stretch h-full;
+      @apply flex items-stretch flex-1;
     }
   }
 
@@ -104,7 +105,8 @@
   .page {
     @apply m-0 h-[11.69in];
   }
-  .page::before, .page::after {
+  .page::before,
+  .page::after {
     @apply hidden;
   }
 
