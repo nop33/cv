@@ -1,8 +1,8 @@
-- title: 'Tech'
-  description: 'Typescript, React, React Native, Git, Electron, TanStack Query, Redux, Web3, Ci/CD, Docker, Monorepos, Python'
+- title: 'Programming Languages'
+  description: 'TypeScript, JavaScript, Python, SQL'
+
+- title: 'Tools/Frameworks'
+  description: 'Node.js, React, React Native, Git, Electron, TanStack Query, Redux, CI/CD, Docker, Monorepos'
 
 - title: 'Engineering'
   description: 'System Design, Performance Optimization, State Management, Application Architecture, Project ownership, Execution precision'
-
-- title: 'Human'
-  description: 'Clear communicator, Curious, Organized, Eye for details, Good mood transmitter'
