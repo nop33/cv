@@ -6,6 +6,10 @@
   content: 'ilias@pm.me'
   link: 'mailto:ilias@pm.me'
 
+- icon: ''
+  content: 'nop33.com'
+  link: 'https://www.nop33.com'
+
 - icon: 'fab fa-linkedin'
   content: 'in/iliastrichopoulos'
   link: 'https://linkedin.com/in/iliastrichopoulos'

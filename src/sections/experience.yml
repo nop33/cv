@@ -1,5 +1,5 @@
 - subtitle: 'Alephium (Core Team)'
-  title: 'Frontend Engineer'
+  title: 'Software Engineer'
   time: 2021 - Present | Switzerland 🇨🇭
   periods:
     - start:
@@ -7,24 +7,31 @@
         month: '11'
       end: 'now'
   description:
-    Lead developer and maintainer of the frontend monorepo powering wallets and explorer apps, working in a small, fast-iterating core team.
+    Core maintainer of the frontend monorepo powering wallets and explorer apps, working in a small, fast-iterating core team.
     <ul>
-    <li>Architected and maintained secure cross-platform wallets handling blockchain transactions, Ledger hardware, and dApp interactions, serving 20,000+ active monthly users (React, RN, Electron, TS).</li>
-    <li>Designed performant state management and caching for live on-chain data (Redux, TanStack Query) improving app startup time by up to 26x and in-app performance up to 10x.</li>
-    <li>Shipped major UX improvements and features in wallets, explorer, and bridge interface.</li>
-    <li>Unified 3 apps into a single monorepo architecture (pnpm, Turborepo) improving devX and enabling code sharing.</li>
-    <li>Rebuilt Alephium.org with headless CMS & static-generation stack, achieving 100% Lighthouse performance score and seamless content updates.</li>
+    <li>Architected and implemented secure cross-platform blockchain wallets enabling 20,000+ active monthly users to manage digital assets and sign transaction safely (React, RN, Electron, TS).</li>
+    <li>Designed high-performance state management and caching architecture, improving app startup time by up to 26x and in-app performance up to 10x.</li>
+    <li>Build scalable real-time data synchronization systems using Tanstack Query and blockchain APIs.</li>
+    <li>Implemented hardware wallet integrations and secure cryptographic transaction workflows</li>
+    <li>Migrated to monorepo architecture (pnpm, Turborepo) improving devX and code reuse.</li>
+    <li>Developed Alephium.org using static-generation architecture, achieving 100% Lighthouse performance score and seamless content updates.</li>
     </ul>
 
 - subtitle: 'Freelance'
-  title: 'Web Developer'
+  title: 'Web developer'
   time: 2019 - 2022 | Switzerland 🇨🇭
   periods:
     - start:
         year: '2021'
         month: '02'
       end: 'now'
-  description: Delivered high-performance websites for small businesses and startups (React, Gatsby, Netlify).
+  description:
+    Delivered high-performance websites for startups and small businesses (React, Gatsby, Netlify).
+    <ul>
+    <li>Build production web apps using modern frontend frameworks and static-site architectures.</li>
+    <li>Optimized for performance, accessibility, and maintainability.</li>
+    <li>Delivered scalable and reliable deployments using Ci/CD and static hosting infrastructure.</li>
+    </ul>
 
 - subtitle: 'Petro-Logistics SA'
   title: 'Software Engineer'
@@ -37,14 +44,14 @@
         year: '2021'
         month: '10'
   description: |-
-    Developed the company's website and internal systems infrastructure.
+    Developed internal systems and public-facing applications supporting business operations.
     <ul>
+    <li>Built automated infrastructure provisioning and backup systems using Docker and Ansible.</li>
     <li>Led a small cross-functional team of engineers, designers, and content creators to develop the company's new website (Hugo, Netlify).</li>
-    <li>Implemented automated backup, PKI, and infra provisioning to improve reliability (Ansible, Docker, GitLab CI/CD, Bash).</li>
     </ul>
 
 - subtitle: 'Bity SA'
-  title: 'Frontend Engineer & Project Lead'
+  title: 'Software Engineer'
   time: 2018 - 2019 | Switzerland 🇨🇭
   periods:
     - start:
@@ -54,14 +61,14 @@
         year: '2019'
         month: '05'
   description: |-
-    Worked on the company's cryptocurrency exchange web client and public website.
+    Worked on cryptocurrency exchange web client and website.
     <ul>
+    <li>Collaborated closely with backend engineers and designers to deliver production features.</li>
     <li>Led the frontend implementation of Bity's main website and open-source React exchange client.</li>
-    <li>Collaborated with designers and backend teams to deliver responsive, performant UIs.</li>
     </ul>
 
 - subtitle: 'Station AG'
-  title: 'Frontend Engineer'
+  title: 'Software Engineer'
   time: 2017 - 2018 | Switzerland 🇨🇭
   periods:
     - start:
@@ -71,15 +78,14 @@
         year: '2018'
         month: '05'
   description: |-
-    Delivered interactive web experiences for high-profile clients.
+    Developed interactive web applications for high-profile clients.
     <ul>
     <li>Developed modern Vue and ES6 web apps (Amnesty International <i>I'M HERE</i> campaign <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee" target="_blank"><i class="fas fa-link"></i></a>).</li>
     <li>Assumed Scrum-master responsibilities, ensuring on-time delivery in an agile setup.</li>
-    <li>Collaborated closely with designers to craft engaging, accessible UI experiences.</li>
     </ul>
 
 - subtitle: 'Indico - CERN'
-  title: 'Full-Stack Software Engineer'
+  title: 'Software Engineer'
   time: 2014 - 2017 | Switzerland 🇨🇭
   periods:
     - start:
@@ -91,9 +97,9 @@
   description: |-
     Contributed to the complete rewrite of Indico's open-source conference-management platform used by thousands of events worldwide.
     <ul>
-    <li>Developed reusable frontend components and improved overall UX consistency (HTML5, jQuery).</li>
-    <li>Supported backend (Python, Flask, PostgreSQL) and DevOps efforts to modernize the platform.</li>
-    <li>Implemented Indico's public website and internal style-guide for design coherence.</li>
+    <li>Developed reusable frontend components and improved UX consistency (HTML5, jQuery).</li>
+    <li>Contributed to backend services and infrastructure modernization (Python, Flask, PostgreSQL).</li>
+    <li>Built Indico's public website and internal style-guide for design coherence.</li>
     </ul>
 
 - subtitle: 'CERN'

@@ -1,8 +1,8 @@
 - title: 'Tech'
-  description: 'React, Typescript, React Native, Git, Electron, TanStack Query, Redux, Web3, GitHub Actions, Monorepos'
+  description: 'Typescript, React, React Native, Git, Electron, TanStack Query, Redux, Web3, Ci/CD, Docker, Monorepos'
 
-- title: 'Work'
-  description: 'Performance profiling & optimization, Pixel-perfect design implementation, Project ownership, Execution precision, Strong understanding of DeFi UX'
+- title: 'Engineering'
+  description: 'System Design, Performance Optimization, State Management, Application Architecture, Project ownership, Execution precision'
 
 - title: 'Human'
   description: 'Clear communicator, Curious, Organized, Eye for details, Good mood transmitter'
