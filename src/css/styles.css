@@ -65,10 +65,10 @@
     @apply mb-page;
   }
   .page__section__content {
-    @apply mt-[1.2rem];
+    @apply mt-[1.1rem];
   }
   .page__section__content > section:not(:first-child) {
-    @apply mt-[1.2rem];
+    @apply mt-[1.1rem];
   }
   .page__section header h2 {
     @apply flex gap-[30px] items-center;
