@@ -7,14 +7,14 @@
         month: '11'
       end: 'now'
   description:
-    Core maintainer of the monorepo powering Alephium's production wallet and explorer applications <a href="https://github.com/alephium/alephium-frontend/" target="_blank"><i class="fas fa-link"></i></a>, working in a small, fast-iterating core team.
+    Core maintainer of the monorepo powering Alephium's production self-custody wallet and explorer applications <a href="https://github.com/alephium/alephium-frontend/" target="_blank"><i class="fas fa-link"></i></a>, working in a small, fast-iterating core team.
     <ul>
-    <li>Architected and implemented secure cross-platform blockchain wallets enabling 20'000+ active monthly users to manage digital assets and sign transaction safely (React, RN, Electron).</li>
+    <li>Architected and implemented secure cross-platform blockchain wallets enabling 20'000+ active monthly users to manage digital assets and sign transaction safely (React, React-Native, TypeScript, Electron).</li>
     <li>Designed high-performance state management and caching architecture, improving app startup time by up to 26x and in-app performance up to 10x.</li>
     <li>Owned architecture and technical direction of Alephium frontend applications in collaboration with core engineering team.</li>
     <li>Built scalable real-time data synchronization systems handling blockchain state and transaction updates.</li>
-    <li>Implemented hardware wallet integrations and secure cryptographic transaction workflows</li>
-    <li>Migrated to monorepo architecture (pnpm, Turborepo) improving devX and code reuse.</li>
+    <li>Implemented hardware wallet integrations (Ledger) and secure onchain transaction flows and DeFi-related integrations, including smart contract interactions and asset management logic.</li>
+    <li>Migrated to monorepo architecture (pnpm, Turborepo) improving CI/CD workflows, devX, and code reuse.</li>
     </ul>
 
 - subtitle: 'Freelance'
