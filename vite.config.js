@@ -3,6 +3,7 @@ import fs from 'fs';
 import yaml from 'js-yaml';
 import { globSync } from 'glob';
 import path from 'path';
+import { loadEnv } from 'vite';
 
 const data = {};
 
@@ -32,6 +33,16 @@ function loadContent() {
       console.error(`Error loading ${filepath}:`, e);
     }
   });
+
+  // Inject phone from env vars
+  const env = loadEnv(process.env.NODE_ENV || 'development', process.cwd(), '');
+  if (env.PHONE && data.footer) {
+    data.footer.splice(1, 0, {
+      icon: '',
+      content: env.PHONE,
+      link: `tel:${env.PHONE.replace(/[^0-9+]/g, '')}`,
+    });
+  }
 }
 
 // Initial load
