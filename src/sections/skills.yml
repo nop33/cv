@@ -2,10 +2,13 @@
   description: 'JavaScript, TypeScript, Python, HTML5, CSS3'
 
 - title: 'Frontend Ecosystem'
-  description: 'React, React Native, Next.js, Node.js, Electron, TanStack Query, Redux, Tailwind, CSS-in-JS'
+  description: 'React, React Native, Next.js, Node.js, Electron, TanStack Query, Redux, Tailwind, CSS-in-JS, UI/UX'
 
 - title: 'Engineering & Architecture'
-  description: 'System Design, Performance Optimization, Scalable State Management, Shared UI Libraries, Real-time Data, API Integration'
+  description: 'System Design, Performance Optimization, State Management, Shared Component Libraries, Real-time Data, API Integration, Mobile Applications'
 
 - title: 'Practices & Tooling'
-  description: 'Technical Leadership, Mentorship, Accessibility, Cross-platform Consistency, Monorepos, CI/CD, Git, Docker'
+  description: 'Tech Leadership, Mentorship, Accessibility, Quality Standards, Cross-browser, Monorepos, CI/CD, Git'
+
+- title: 'Soft Skills'
+  description: 'Collaboration, Analytical Thinking, Accountability, Communication'

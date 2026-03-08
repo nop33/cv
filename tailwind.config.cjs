@@ -12,7 +12,7 @@ module.exports = {
       },
       width: {
         letter: '8.27in',
-        'left-column': '200px',
+        'left-column': '220px',
       },
       height: {
         letter: '11.69in',
