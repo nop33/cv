@@ -1,8 +1,11 @@
 - title: 'Programming Languages'
-  description: 'TypeScript, JavaScript, Python'
+  description: 'JavaScript, TypeScript, Python, HTML5, CSS3'
 
-- title: 'Tools/Frameworks'
-  description: 'Node.js, React, React Native, Next.js, Git, Electron, TanStack Query, Redux, CI/CD, Docker, Monorepos, Websockets'
+- title: 'Frontend Ecosystem'
+  description: 'React, React Native, Next.js, Node.js, Electron, TanStack Query, Redux, Tailwind, CSS-in-JS'
 
-- title: 'Engineering'
-  description: 'System Design, Performance Optimization, State Management, Application Architecture, Project ownership, Execution precision'
+- title: 'Engineering & Architecture'
+  description: 'System Design, Performance Optimization, Scalable State Management, Shared UI Libraries, Real-time Data, API Integration'
+
+- title: 'Practices & Tooling'
+  description: 'Technical Leadership, Mentorship, Accessibility, Cross-platform Consistency, Monorepos, CI/CD, Git, Docker'

@@ -1,5 +1,5 @@
 - subtitle: 'Alephium (Core Team)'
-  title: 'Software Engineer'
+  title: 'Staff Frontend Engineer'
   time: 2021 - Present | Switzerland 🇨🇭
   periods:
     - start:
@@ -9,12 +9,12 @@
   description:
     Core maintainer of the monorepo powering Alephium's production self-custody wallet and explorer applications <a href="https://github.com/alephium/alephium-frontend/" target="_blank"><i class="fas fa-link"></i></a>, working in a small, fast-iterating core team.
     <ul>
-    <li>Architected and implemented secure cross-platform blockchain wallets enabling 20'000+ active monthly users to manage digital assets and sign transaction safely (React, React-Native, TypeScript, Electron).</li>
-    <li>Designed high-performance state management and caching architecture, improving app startup time by up to 26x and in-app performance up to 10x.</li>
-    <li>Owned user onboarding for Alephium, reducing friction in digital asset management and improving trust through intuitive UI/UX and secure signing workflows.</li>
-    <li>Built scalable real-time data synchronization systems handling blockchain state and transaction updates.</li>
-    <li>Implemented hardware wallet integrations (Ledger) and secure onchain transaction flows and DeFi-related integrations, including smart contract interactions and asset management logic.</li>
-    <li>Migrated to monorepo architecture (pnpm, Turborepo) improving CI/CD workflows and devX.</li>
+    <li>Architected and led the development of secure, cross-platform blockchain wallets (React, React Native, Next.js), establishing frontend standards and enabling 20'000+ active monthly users to safely manage digital assets.</li>
+    <li>Built reusable UI components, shared SDKs, and core abstractions that unified the user experience across web, desktop, and mobile platforms.</li>
+    <li>Designed scalable state management and caching architectures for real-time blockchain data, improving app startup time by 26x and performance by 10x.</li>
+    <li>Collaborated with backend and DeFi teams to establish robust API contracts and real-time data synchronization patterns, ensuring seamless cross-platform consistency.</li>
+    <li>Spearheaded complex UX flows for onboarding and permissioning, prioritizing accessibility and intuitive design while maintaining strict security standards.</li>
+    <li>Drove engineering excellence by migrating to a monorepo architecture (pnpm, Turborepo), defining testing strategies, and mentoring engineers through technical reviews and architectural guidance.</li>
     </ul>
 
 - subtitle: 'Freelance'
@@ -26,10 +26,10 @@
         month: '02'
       end: 'now'
   description:
-    Delivered high-performance websites for startups and small businesses (React, Gatsby, Netlify).
+    Delivered high-performance websites for startups and small businesses (React, Gatsby, Next.js).
     <ul>
-    <li>Build production web apps using modern frontend frameworks and static-site architectures.</li>
-    <li>Delivered scalable and reliable deployments using Ci/CD and static hosting infrastructure.</li>
+    <li>Architected production web applications prioritizing fast load times, responsive layouts, and modern component-based design.</li>
+    <li>Implemented reliable deployment pipelines with CI/CD, guaranteeing scalable infrastructure for clients.</li>
     </ul>
 
 - subtitle: 'Petro-Logistics SA'
@@ -45,12 +45,12 @@
   description: |-
     Developed internal systems and public-facing applications supporting business operations.
     <ul>
-    <li>Led a small cross-functional team of engineers, designers, and content creators to develop the company's new website (Hugo, Netlify).</li>
+    <li>Led a small cross-functional team of engineers, designers, and content creators to develop the company's new website.</li>
     <li>Built automated infrastructure provisioning and backup systems using Docker and Ansible.</li>
     </ul>
 
 - subtitle: 'Bity SA'
-  title: 'Software Engineer'
+  title: 'Frontend Engineer'
   time: 2018 - 2019 | Switzerland 🇨🇭
   periods:
     - start:
@@ -62,8 +62,8 @@
   description: |-
     Worked on cryptocurrency exchange web client and website.
     <ul>
-    <li>Implemented the core user flow of a cryptocurrency exchange web client, focusing on the seamless integration of fiat-to-crypto payment flows and transaction reliability.</li>
-    <li>Led the frontend implementation of Bity's main website and open-source React exchange client.</li>
+    <li>Engineered the core user flow for a cryptocurrency exchange web client, optimizing fiat-to-crypto payment flows, API-driven design, and error handling for financial services.</li>
+    <li>Led the technical direction and frontend implementation of Bity's main website and open-source React exchange client, prioritizing cross-device compatibility and UX consistency.</li>
     </ul>
 
 - subtitle: 'Station AG'
@@ -96,7 +96,7 @@
   description: |-
     Contributed to the complete rewrite of Indico's open-source conference-management platform used by thousands of events worldwide.
     <ul>
-    <li>Developed reusable frontend components and improved UX consistency (HTML5, jQuery).</li>
+    <li>Developed reusable frontend components and improved UX consistency (HTML5, CSS3, JS).</li>
     <li>Contributed to backend services and infrastructure modernization (Python, Flask, PostgreSQL).</li>
     <li>Built Indico's public website and internal style-guide for design coherence.</li>
     </ul>
