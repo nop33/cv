@@ -11,6 +11,7 @@
     <ul>
     <li>Architected and led the development of secure, cross-platform blockchain wallets (React, React Native, Next.js), establishing frontend standards and enabling 20'000+ active monthly users to safely manage digital assets.</li>
     <li>Built reusable UI components, shared SDKs, and core abstractions that unified the user experience across web, desktop, and mobile platforms.</li>
+    <li>Leading frontend development of Powfi, Alephium's flagship DeFi dApp (Next.js), featuring a CLMM DEX, staking mechanisms, and ecosystem-wide yield strategies.</li>
     <li>Designed scalable state management and caching architectures for real-time blockchain data, improving app startup time by 26x and performance by 10x.</li>
     <li>Collaborated with backend and DeFi teams to establish robust API contracts and real-time data synchronization patterns, ensuring seamless cross-platform consistency.</li>
     <li>Spearheaded complex UX flows for onboarding and permissioning, prioritizing accessibility and intuitive design while maintaining strict security standards.</li>
