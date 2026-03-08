@@ -15,7 +15,10 @@ module.exports = {
         'left-column': '200px',
       },
       height: {
-        letter: '12in',
+        letter: '11.69in',
+      },
+      minHeight: {
+        letter: '11.69in',
       },
       padding: {
         page: '16pt',

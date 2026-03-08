@@ -100,10 +100,10 @@
 
 @media print {
   body {
-    @apply w-letter h-letter h-[11.69in];
+    @apply w-letter h-letter;
   }
   .page {
-    @apply m-0 h-[11.69in];
+    @apply m-0 h-letter;
   }
   .page::before,
   .page::after {
