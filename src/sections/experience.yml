@@ -11,10 +11,10 @@
     <ul>
     <li>Architected and implemented secure cross-platform blockchain wallets enabling 20'000+ active monthly users to manage digital assets and sign transaction safely (React, React-Native, TypeScript, Electron).</li>
     <li>Designed high-performance state management and caching architecture, improving app startup time by up to 26x and in-app performance up to 10x.</li>
-    <li>Owned architecture and technical direction of Alephium frontend applications in collaboration with core engineering team.</li>
+    <li>Owned user onboarding for Alephium, reducing friction in digital asset management and improving trust through intuitive UI/UX and secure signing workflows.</li>
     <li>Built scalable real-time data synchronization systems handling blockchain state and transaction updates.</li>
     <li>Implemented hardware wallet integrations (Ledger) and secure onchain transaction flows and DeFi-related integrations, including smart contract interactions and asset management logic.</li>
-    <li>Migrated to monorepo architecture (pnpm, Turborepo) improving CI/CD workflows, devX, and code reuse.</li>
+    <li>Migrated to monorepo architecture (pnpm, Turborepo) improving CI/CD workflows and devX.</li>
     </ul>
 
 - subtitle: 'Freelance'
@@ -45,8 +45,8 @@
   description: |-
     Developed internal systems and public-facing applications supporting business operations.
     <ul>
-    <li>Built automated infrastructure provisioning and backup systems using Docker and Ansible.</li>
     <li>Led a small cross-functional team of engineers, designers, and content creators to develop the company's new website (Hugo, Netlify).</li>
+    <li>Built automated infrastructure provisioning and backup systems using Docker and Ansible.</li>
     </ul>
 
 - subtitle: 'Bity SA'
@@ -62,7 +62,7 @@
   description: |-
     Worked on cryptocurrency exchange web client and website.
     <ul>
-    <li>Collaborated closely with backend engineers and designers to deliver production features.</li>
+    <li>Implemented the core user flow of a cryptocurrency exchange web client, focusing on the seamless integration of fiat-to-crypto payment flows and transaction reliability.</li>
     <li>Led the frontend implementation of Bity's main website and open-source React exchange client.</li>
     </ul>
 

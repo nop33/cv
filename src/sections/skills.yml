@@ -2,7 +2,7 @@
   description: 'TypeScript, JavaScript, Python'
 
 - title: 'Tools/Frameworks'
-  description: 'Node.js, React, React Native, Git, Electron, TanStack Query, Redux, CI/CD, Docker, Monorepos'
+  description: 'Node.js, React, React Native, Next.js, Git, Electron, TanStack Query, Redux, CI/CD, Docker, Monorepos, Websockets'
 
 - title: 'Engineering'
   description: 'System Design, Performance Optimization, State Management, Application Architecture, Project ownership, Execution precision'
