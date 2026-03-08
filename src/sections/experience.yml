@@ -1,6 +1,6 @@
 - subtitle: 'Alephium (Core Team)'
   title: 'Staff Frontend Engineer'
-  time: 2021 - Present | Switzerland 🇨🇭
+  time: Nov 2021 - Present | Switzerland 🇨🇭
   periods:
     - start:
         year: '2021'
@@ -19,7 +19,7 @@
 
 - subtitle: 'Freelance'
   title: 'Web developer'
-  time: 2019 - 2022 | Switzerland 🇨🇭
+  time: Jun 2019 - Dec 2022 | Switzerland 🇨🇭
   periods:
     - start:
         year: '2021'
@@ -29,12 +29,12 @@
     Delivered high-performance websites for startups and small businesses (React, Gatsby, Next.js).
     <ul>
     <li>Architected production web applications prioritizing fast load times, responsive layouts, and modern component-based design.</li>
-    <li>Implemented reliable deployment pipelines with CI/CD, guaranteeing scalable infrastructure for clients.</li>
+    <li>Implemented reliable deployment pipelines with CI/CD, guaranteeing scalable infrastructure.</li>
     </ul>
 
 - subtitle: 'Petro-Logistics SA'
   title: 'Software Engineer'
-  time: 2019 - 2021 | Switzerland 🇨🇭
+  time: Jun 2019 - Oct 2021 | Switzerland 🇨🇭
   periods:
     - start:
         year: '2019'
@@ -51,7 +51,7 @@
 
 - subtitle: 'Bity SA'
   title: 'Frontend Engineer'
-  time: 2018 - 2019 | Switzerland 🇨🇭
+  time: Jun 2018 - May 2019 | Switzerland 🇨🇭
   periods:
     - start:
         year: '2018'
@@ -68,7 +68,7 @@
 
 - subtitle: 'Station AG'
   title: 'Software Engineer'
-  time: 2017 - 2018 | Switzerland 🇨🇭
+  time: Oct 2017 - May 2018 | Switzerland 🇨🇭
   periods:
     - start:
         year: '2017'
@@ -85,7 +85,7 @@
 
 - subtitle: 'Indico - CERN'
   title: 'Software Engineer'
-  time: 2014 - 2017 | Switzerland 🇨🇭
+  time: Aug 2014 - Jul 2017 | Switzerland 🇨🇭
   periods:
     - start:
         year: '2014'
@@ -101,28 +101,28 @@
     <li>Built Indico's public website and internal style-guide for design coherence.</li>
     </ul>
 
-- subtitle: 'CERN'
-  title: 'Full-Stack Software Engineer - Internship'
-  time: 2013 - 2014 | Switzerland 🇨🇭
-  periods:
-    - start:
-        year: '2013'
-        month: '08'
-      end:
-        year: '2014'
-        month: '07'
-  description:
-  tags:
+# - subtitle: 'CERN'
+#   title: 'Full-Stack Software Engineer - Internship'
+#   time: 2013 - 2014 | Switzerland 🇨🇭
+#   periods:
+#     - start:
+#         year: '2013'
+#         month: '08'
+#       end:
+#         year: '2014'
+#         month: '07'
+#   description:
+#   tags:
 
-- subtitle: 'Aidgency Software'
-  title: 'Full-Stack Software Engineer - Internship'
-  time: 2012 - 2013 | Germany 🇩🇪
-  periods:
-    - start:
-        year: '2012'
-        month: '07'
-      end:
-        year: '2013'
-        month: '04'
-  description:
-  tags:
+# - subtitle: 'Aidgency Software'
+#   title: 'Full-Stack Software Engineer - Internship'
+#   time: 2012 - 2013 | Germany 🇩🇪
+#   periods:
+#     - start:
+#         year: '2012'
+#         month: '07'
+#       end:
+#         year: '2013'
+#         month: '04'
+#   description:
+#   tags:
