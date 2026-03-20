@@ -5,10 +5,10 @@
   description: 'React, React Native, Next.js, Node.js, Electron, TanStack Query, Redux, Tailwind, CSS-in-JS, UI/UX'
 
 - title: 'Engineering & Architecture'
-  description: 'System Design, Performance Optimization, State Management, Shared Component Libraries, Real-time Data, API Integration, Mobile Applications'
+  description: 'System Design, Performance Optimization, State Management, Real-time Data, API Integration, Mobile Applications'
 
 - title: 'Practices & Tooling'
-  description: 'Tech Leadership, Mentorship, Accessibility, Quality Standards, Cross-browser, Monorepos, CI/CD, Git'
+  description: 'Tech Leadership, Mentorship, Accessibility, Quality Standards, Monorepos, CI/CD, Git'
 
 - title: 'Soft Skills'
   description: 'Collaboration, Analytical Thinking, Accountability, Communication'

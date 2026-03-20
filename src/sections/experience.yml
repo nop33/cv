@@ -1,5 +1,5 @@
 - subtitle: 'Alephium (Core Team)'
-  title: 'Staff Frontend Engineer'
+  title: 'Senior Software Engineer'
   time: Nov 2021 - Present | Switzerland 🇨🇭
   periods:
     - start:
@@ -9,13 +9,11 @@
   description:
     Core maintainer of the monorepo powering Alephium's production self-custody wallet and explorer applications <a href="https://github.com/alephium/alephium-frontend/" target="_blank"><i class="fas fa-link"></i></a>, working in a small, fast-iterating core team.
     <ul>
-    <li>Architected and led the development of secure, cross-platform blockchain wallets (React, React Native, Next.js), establishing frontend standards and enabling 20'000+ active monthly users to safely manage digital assets.</li>
-    <li>Built reusable UI components, shared SDKs, and core abstractions that unified the user experience across web, desktop, and mobile platforms.</li>
-    <li>Leading frontend development of Powfi, Alephium's flagship DeFi dApp (Next.js), featuring a CLMM DEX, staking mechanisms, and ecosystem-wide yield strategies.</li>
+    <li>Achieved 0 critical security incidents while scaling cross-platform wallets (React, React Native) to 20'000+ MAUs, establishing the technical foundation for the ecosystem's primary user touchpoint.</li>
+    <li>Reduced feature delivery time for cross-platform updates by ~40% by architecting a monorepo (Turborepo) with shared SDKs and UI libraries, ensuring 80% logic parity across web, desktop, and mobile.</li>
+    <li>Directing the technical roadmap for Alephium's flagship DeFi dApp (Next.js) coordinating cross-functional teams (Blockchain/Backend) to integrate complex CLMM DEX and staking protocols.</li>
     <li>Designed scalable state management and caching architectures for real-time blockchain data, improving app startup time by 26x and performance by 10x.</li>
-    <li>Collaborated with backend and DeFi teams to establish robust API contracts and real-time data synchronization patterns, ensuring seamless cross-platform consistency.</li>
-    <li>Spearheaded complex UX flows for onboarding and permissioning, prioritizing accessibility and intuitive design while maintaining strict security standards.</li>
-    <li>Drove engineering excellence by migrating to a monorepo architecture (pnpm, Turborepo), defining testing strategies, and mentoring engineers through technical reviews and architectural guidance.</li>
+    <li>Implemented hardware wallet integrations (Ledger) and secure onchain transaction flows and DeFi-related integrations, including smart contract interactions and asset management logic.</li>
     </ul>
 
 - subtitle: 'Freelance'
@@ -30,7 +28,7 @@
     Delivered high-performance websites for startups and small businesses (React, Gatsby, Next.js).
     <ul>
     <li>Architected production web applications prioritizing fast load times, responsive layouts, and modern component-based design.</li>
-    <li>Implemented reliable deployment pipelines with CI/CD, guaranteeing scalable infrastructure.</li>
+    <li>Delivered scalable and reliable deployments using CI/CD and static hosting infrastructure.</li>
     </ul>
 
 - subtitle: 'Petro-Logistics SA'
