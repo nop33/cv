@@ -43,6 +43,13 @@ function loadContent() {
       link: `tel:${env.PHONE.replace(/[^0-9+]/g, '')}`,
     });
   }
+  if (env.EMAIL && data.footer) {
+    data.footer.splice(2, 0, {
+      icon: '',
+      content: env.EMAIL,
+      link: `mailto:${env.EMAIL}`,
+    });
+  }
 }
 
 // Initial load
