@@ -11,13 +11,13 @@
     <ul>
     <li>Achieved 0 critical security incidents while scaling cross-platform wallets (React, React Native) to 20'000+ MAUs, establishing the technical foundation for the ecosystem's primary user touchpoint.</li>
     <li>Reduced feature delivery time for cross-platform updates by ~40% by architecting a monorepo (Turborepo) with shared SDKs and UI libraries, ensuring 80% logic parity across web, desktop, and mobile.</li>
-    <li>Directing the technical roadmap for Alephium's flagship DeFi dApp (Next.js) coordinating cross-functional teams (Blockchain/Backend) to integrate complex CLMM DEX and staking protocols.</li>
+    <li>Directing the technical roadmap for Alephium's flagship DeFi dApp (Next.js) coordinating cross-functional teams to integrate complex CLMM DEX and staking protocols.</li>
     <li>Designed scalable state management and caching architectures for real-time blockchain data, improving app startup time by 26x and performance by 10x.</li>
-    <li>Implemented hardware wallet integrations (Ledger) and secure onchain transaction flows and DeFi-related integrations, including smart contract interactions and asset management logic.</li>
+    <li>Implemented hardware wallet integrations (Ledger) and secure onchain transaction flows and DeFi-related integrations.</li>
     </ul>
 
-- subtitle: 'Freelance'
-  title: 'Web developer'
+- subtitle: 'Self-Employed'
+  title: 'Senior Consultant'
   time: Jun 2019 - Dec 2022 | Switzerland 🇨🇭
   periods:
     - start:
@@ -25,10 +25,10 @@
         month: '02'
       end: 'now'
   description:
-    Delivered high-performance websites for startups and small businesses (React, Gatsby, Next.js).
+    Partnered with startups to architect and deliver high-performance web applications using modern React ecosystems.
     <ul>
-    <li>Architected production web applications prioritizing fast load times, responsive layouts, and modern component-based design.</li>
-    <li>Delivered scalable and reliable deployments using CI/CD and static hosting infrastructure.</li>
+    <li>Designed and deployed highly optimized, serverless web applications using React, Gatsby, and Next.js, prioritizing Core Web Vitals and edge-network content delivery.</li>
+    <li>Implemented Headless CMS architectures with OAuth security and automated Netlify CI/CD pipelines for zero-maintenance deployments.</li>
     </ul>
 
 - subtitle: 'Petro-Logistics SA'
@@ -42,14 +42,14 @@
         year: '2021'
         month: '10'
   description: |-
-    Developed internal systems and public-facing applications supporting business operations.
+    Directed full-stack development and modernized internal infrastructure.
     <ul>
-    <li>Led a small cross-functional team of engineers, designers, and content creators to develop the company's new website.</li>
-    <li>Built automated infrastructure provisioning and backup systems using Docker and Ansible.</li>
+    <li>Led a cross-functional team of engineers, designers, and stakeholders to architect the company's new digital platform.</li>
+    <li>Engineered automated Docker/Ansible infrastructure and established secure enterprise systems, including Public Key Infrastructure (PKI).</li>
     </ul>
 
 - subtitle: 'Bity SA'
-  title: 'Frontend Engineer'
+  title: 'Software Engineer'
   time: Jun 2018 - May 2019 | Switzerland 🇨🇭
   periods:
     - start:
@@ -59,10 +59,10 @@
         year: '2019'
         month: '05'
   description: |-
-    Worked on cryptocurrency exchange web client and website.
+    Architected secure, high-stakes frontend experiences for a regulated cryptocurrency exchange, focusing on reliability and UX in financial services.
     <ul>
-    <li>Engineered the core user flow for a cryptocurrency exchange web client, optimizing fiat-to-crypto payment flows, API-driven design, and error handling for financial services.</li>
-    <li>Led the technical direction and frontend implementation of Bity's main website and open-source React exchange client, prioritizing cross-device compatibility and UX consistency.</li>
+    <li>Engineered the primary user flows for the web client, optimizing complex fiat-to-crypto transactions, API-driven data layers, and edge-case error handling.</li>
+    <li>Led the frontend architecture and implementation of Bity's main website and open-source React exchange client, prioritizing cross-platform consistency.</li>
     </ul>
 
 - subtitle: 'Station AG'
@@ -78,8 +78,8 @@
   description: |-
     Developed interactive web applications for high-profile clients.
     <ul>
-    <li>Developed modern Vue and ES6 web apps (Amnesty International <i>I'M HERE</i> campaign <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee" target="_blank"><i class="fas fa-link"></i></a>).</li>
-    <li>Assumed Scrum-master responsibilities, ensuring on-time delivery in an agile setup.</li>
+    <li>Developed modern Vue and ES6 web apps (Amnesty International <i>I'M HERE</i> campaign <a href="https://www.amnesty.ch/fr/pays/afrique/tchad/docs/2018/action-photo-pour-blogueur-terminee" target="_blank"><i class="fas fa-link"></i></a>) prioritizing performance and responsive design.</li>
+    <li>Facilitated delivery as Scrum Master, managing sprint cycles and coordinating cross-functional teams to ensure reliable, on-time delivery in a high-pressure agency setting.</li>
     </ul>
 
 - subtitle: 'Indico - CERN'
@@ -93,11 +93,10 @@
         year: '2017'
         month: '07'
   description: |-
-    Contributed to the complete rewrite of Indico's open-source conference-management platform used by thousands of events worldwide.
+    Contributed to the complete architectural rewrite of Indico, a global open-source conference-management platform used by thousands of organizations worldwide.
     <ul>
-    <li>Developed reusable frontend components and improved UX consistency (HTML5, CSS3, JS).</li>
-    <li>Contributed to backend services and infrastructure modernization (Python, Flask, PostgreSQL).</li>
-    <li>Built Indico's public website and internal style-guide for design coherence.</li>
+    <li>Developed a reusable frontend component library and internal style guide to ensure design coherence and UX consistency across the platform.</li>
+    <li>Engineered backend services and modernized infrastructure using Python, Flask, and PostgreSQL, ensuring high availability for event management systems.</li>
     </ul>
 
 # - subtitle: 'CERN'
